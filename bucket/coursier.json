@@ -7,7 +7,10 @@
     "hash": "7f51548700ee2b296f2a8b204e2d6fc65bb6f1d7fad34887959af92514308b56",
     "bin": "coursier.jar",
     "env_set": {
-        "COURSIER_HOME": "${env:LOCALAPPDATA}\\Coursier"
+        "COURSIER_BIN_DIR": "${env:LOCALAPPDATA}\\Coursier\\data\\bin",
+        "COURSIER_CACHE": "${env:LOCALAPPDATA}\\Coursier\\Cache\\v1",
+        "COURSIER_HOME": "${env:LOCALAPPDATA}\\Coursier",
+        "COURSIER_JVM_CACHE": "${env:LOCALAPPDATA}\\Coursier\\Cache\\v1\\jvm"
     },
     "checkver": {
         "url": "https://github.com/coursier/coursier/releases",
