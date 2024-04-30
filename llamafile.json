@@ -16,9 +16,7 @@
     "zipalign.exe"
   ],
   "pre_install": "Get-ChildItem \"$dir\\llamafile-$version\\bin\" | Move-Item -Destination \"$dir\" ; Get-ChildItem -File \"$dir\" | Rename-Item -NewName { $_.Name + \".exe\" }",
-  "checkver": {
-    "github": "https://github.com/Mozilla-Ocho/llamafile"
-  },
+  "checkver": "github",
   "autoupdate": {
     "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version.zip"
   }
