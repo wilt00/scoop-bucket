@@ -1,0 +1,25 @@
+{
+  "description": "Distribute and run LLMs with a single file.",
+  "license": "Apache-2.0",
+  "hash": "4d36ab5f2fd7bc488c437732fba9943df1e0bb1370b76fa7a3161e817bbdbce8",
+  "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.1/llamafile-0.8.1.zip",
+  "version": "0.8.1",
+  "homepage": "https://github.com/Mozilla-Ocho/llamafile",
+  "bin": [
+    "llamafile.exe",
+    "llamafile-convert.exe",
+    "llamafile-imatrix.exe",
+    "llamafile-perplexity.exe",
+    "llamafile-quantize.exe",
+    "llamafile-tokenize.exe",
+    "llava-quantize.exe",
+    "zipalign.exe"
+  ],
+  "pre_install": "Get-ChildItem \"$dir\\llamafile-$version\\bin\" | Move-Item -Destination \"$dir\" ; Get-ChildItem -File \"$dir\" | Rename-Item -NewName { $_.Name + \".exe\" }",
+  "checkver": {
+    "github": "https://github.com/Mozilla-Ocho/llamafile"
+  },
+  "autoupdate": {
+    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version.zip"
+  }
+}
