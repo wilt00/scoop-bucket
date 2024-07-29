@@ -1,10 +1,10 @@
 {
     "description": "Distribute and run LLMs with a single file.",
     "license": "Apache-2.0",
-    "hash": "c0978c9fe7551bc1f6e17caea29687d6c684c820e3444bd47228a2148ac220ab",
-    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.9/llamafile-0.8.9.zip",
-    "extract_dir": "llamafile-0.8.9",
-    "version": "0.8.9",
+    "hash": "8a0320d12e64ba7213670b6c7e1f6b565257e0cfce97e5268e1551df2e7ff320",
+    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.12/llamafile-0.8.12.zip",
+    "extract_dir": "llamafile-0.8.12",
+    "version": "0.8.12",
     "homepage": "https://github.com/Mozilla-Ocho/llamafile",
     "bin": [
         "bin\\llamafile.exe",
@@ -15,6 +15,7 @@
         "bin\\llamafile-quantize.exe",
         "bin\\llamafile-tokenize.exe",
         "bin\\llamafile-upgrade-engine.exe",
+        "bin\\llamafiler.exe",
         "bin\\llava-quantize.exe",
         "bin\\zipalign.exe"
     ],
