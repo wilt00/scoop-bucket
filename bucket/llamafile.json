@@ -1,10 +1,10 @@
 {
     "description": "Distribute and run LLMs with a single file.",
     "license": "Apache-2.0",
-    "hash": "672f3661f2f4a2f7a6b692f04cd9b662cdf77a5193a62771c3432cb4d420dea7",
-    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.13/llamafile-0.8.13.zip",
-    "extract_dir": "llamafile-0.8.13",
-    "version": "0.8.13",
+    "hash": "4d76e78677bb21b257f93ddb8e47e9c90790f9d07e680aab4c94c3c56327029a",
+    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.14/llamafile-0.8.14.zip",
+    "extract_dir": "llamafile-0.8.14",
+    "version": "0.8.14",
     "homepage": "https://github.com/Mozilla-Ocho/llamafile",
     "bin": [
         "bin\\llamafile.exe",
@@ -17,6 +17,8 @@
         "bin\\llamafile-upgrade-engine.exe",
         "bin\\llamafiler.exe",
         "bin\\llava-quantize.exe",
+        "bin\\sdfile.exe",
+        "bin\\whisperfile.exe",
         "bin\\zipalign.exe"
     ],
     "pre_install": "Get-ChildItem -File \"$dir\\bin\" | Rename-Item -NewName { $_.Name + \".exe\" }",
