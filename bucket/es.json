@@ -1,4 +1,6 @@
 {
+    "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+    "description": "Command-line interface for the Everything search tool",
     "license": "Freeware",
     "architecture": {
         "64bit": {
