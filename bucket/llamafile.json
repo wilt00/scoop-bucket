@@ -9,19 +9,17 @@
     "bin": [
         "bin\\llamafile.exe",
         "bin\\llamafile-bench.exe",
-        "bin\\llamafile-convert.exe",
         "bin\\llamafile-imatrix.exe",
         "bin\\llamafile-perplexity.exe",
         "bin\\llamafile-quantize.exe",
         "bin\\llamafile-tokenize.exe",
-        "bin\\llamafile-upgrade-engine.exe",
         "bin\\llamafiler.exe",
         "bin\\llava-quantize.exe",
         "bin\\sdfile.exe",
         "bin\\whisperfile.exe",
         "bin\\zipalign.exe"
     ],
-    "pre_install": "Get-ChildItem -File \"$dir\\bin\" | Rename-Item -NewName { $_.Name + \".exe\" }",
+    "pre_install": "Get-ChildItem -File \"$dir\\bin\" | Where-Object { -not ($_.Name -in @('llamafile-convert', 'llamafile-upgrade-engine')) } | Rename-Item -NewName { $_.Name + \".exe\" }",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version.zip",
