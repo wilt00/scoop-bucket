@@ -16,9 +16,9 @@ scoop install wilt00/<app_name>
 |------|-------------|---------|
 "@ | Out-File -FilePath .\Readme.md
 
-Get-ChildItem ./bucket | ForEach-Object {
+Get-ChildItem .\bucket\*.json | ForEach-Object {
     $manifest = Get-Content $_ | ConvertFrom-Json -AsHashtable
-    $manifest.name = $_.Name.TrimEnd(".json")
+    $manifest.name = $_.BaseName
     $manifest
 } | ForEach-Object {
     "|[{0}]({1})|{2}|{3}" -f $_.name, $_.homepage, $_.version, $_.description
