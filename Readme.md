@@ -20,7 +20,7 @@ scoop install wilt00/<app_name>
 |[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-02-15|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.11.114|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
-|[e](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
+|[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
 |[espeak-ng-nightly]()|13070370275|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|38.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
@@ -30,9 +30,9 @@ scoop install wilt00/<app_name>
 |[ntag](https://github.com/nrittsti/ntag)|1.2.15|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
-|[pulseaudi](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
+|[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer/)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[siril](https://siril.org/)|1.2.6|Astronomical image processing software
 |[soupault](https://github.com/PataphysicalSociety/soupault)|4.11.0|HTML manipulation tool
-|[uwidget](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
+|[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[zenbreak](https://github.com/Giuliopime/ZenBreak)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
