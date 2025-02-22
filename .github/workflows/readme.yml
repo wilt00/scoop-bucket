@@ -1,8 +1,11 @@
 on:
     workflow_dispatch:
     push:
-        branches:
-            - main
+        branches: [main]
+    workflow_run:
+        workflows: [Excavator]
+        types: [completed]
+
 name: Update Readme
 jobs:
     updateReadme:
