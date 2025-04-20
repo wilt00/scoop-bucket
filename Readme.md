@@ -17,9 +17,9 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-04-18|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-04-19|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
-|[dots](https://github.com/nor0x/Dots)|2.1.0|The friendly .NET SDK manager
+|[dots](https://github.com/nor0x/Dots)|2.1.1|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.82|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|14428306005|
