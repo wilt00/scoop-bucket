@@ -6,7 +6,7 @@ A personal, unofficial [scoop](https://scoop.sh) bucket of miscellaneous Windows
 ## Usage
 
 ``````powershell
-scoop bucket add wilt00 https://github.com/wilt00/scoop-bucket
+scoop bucket add wilt00 "https://github.com/wilt00/scoop-bucket"
 scoop install wilt00/<app_name>
 ``````
 
@@ -23,3 +23,8 @@ Get-ChildItem .\bucket\*.json | ForEach-Object {
 } | ForEach-Object {
     "|[{0}]({1})|{2}|{3}" -f $_.name, $_.homepage, $_.version, $_.description
 } | Out-File -FilePath .\Readme.md -Append
+
+@"
+
+Do not edit this Readme - generated from [[scripts/Generate-Readme.ps1]]
+"@ | Out-File -FilePath .\Readme.md -Append
