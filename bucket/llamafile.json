@@ -15,6 +15,7 @@
         "bin\\llamafile-tokenize.exe",
         "bin\\llamafiler.exe",
         "bin\\llava-quantize.exe",
+        "bin\\localscore.exe",
         "bin\\sdfile.exe",
         "bin\\whisperfile.exe",
         "bin\\zipalign.exe"
