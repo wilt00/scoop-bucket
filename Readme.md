@@ -5,7 +5,7 @@ A personal, unofficial [scoop](https://scoop.sh) bucket of miscellaneous Windows
 ## Usage
 
 ```powershell
-scoop bucket add wilt00 https://github.com/wilt00/scoop-bucket
+scoop bucket add wilt00 "https://github.com/wilt00/scoop-bucket"
 scoop install wilt00/<app_name>
 ```
 
@@ -15,6 +15,7 @@ scoop install wilt00/<app_name>
 |------|-------------|---------|
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
+|[axelchat](https://github.com/3dproger/AxelChat/)|0.40.0|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 |[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-06-12|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
@@ -39,3 +40,5 @@ scoop install wilt00/<app_name>
 |[soupault](https://github.com/PataphysicalSociety/soupault)|5.0.0|HTML manipulation tool
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[zenbreak](https://github.com/Giuliopime/ZenBreak)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
+
+Do not edit this Readme - generated from [[scripts/Generate-Readme.ps1]]
