@@ -22,7 +22,7 @@ jobs:
               run: |
                 git config user.name "Github Actions"
                 git config user.email "<>"
-                git add Readme.md
+                git add README.md
                 git commit -m "[Bot] Update readme"
                 git push origin main
 
