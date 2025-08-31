@@ -39,6 +39,7 @@ scoop install wilt00/<app_name>
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer/)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[siril](https://siril.org/)|1.4.0-beta3|Astronomical image processing software
 |[soupault](https://github.com/PataphysicalSociety/soupault)|5.1.0|HTML manipulation tool
+|[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.2|Unofficial YouTube Music Desktop wrapper with some extra features
 |[zenbreak](https://github.com/Giuliopime/ZenBreak)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
