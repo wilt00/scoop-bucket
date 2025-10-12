@@ -18,7 +18,7 @@ scoop install wilt00/<app_name>
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.40.5|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-10-10|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-10-11|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.0.14|Anthropic's agentic coding tool that lives in your terminal
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dots](https://github.com/nor0x/Dots)|2.1.1|The friendly .NET SDK manager
@@ -31,7 +31,7 @@ scoop install wilt00/<app_name>
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.8|Oracle GraalVM; manifest does not modify environment variables
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.9.3|Distribute and run LLMs with a single file.
 |[lumafly](https://github.com/TheMulhima/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
-|[ntag](https://github.com/nrittsti/ntag)|1.2.15|Audio file tag editor
+|[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
