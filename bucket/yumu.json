@@ -23,7 +23,10 @@
             "Yumu"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/typefasterjoel/yumu",
+        "regex": "/releases/tag/(?:v|V)?\\.?([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
