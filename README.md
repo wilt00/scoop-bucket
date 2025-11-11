@@ -15,11 +15,11 @@ scoop install wilt00/<app_name>
 |------|-------------|---------|
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
-|[axelchat](https://github.com/3dproger/AxelChat/)|0.41.2|Displays chats from multiple services in one window
+|[axelchat](https://github.com/3dproger/AxelChat/)|0.42.0|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-11-08|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
-|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.0.36|Anthropic's agentic coding tool that lives in your terminal
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-11-10|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.0.37|Anthropic's agentic coding tool that lives in your terminal
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dots](https://github.com/nor0x/Dots)|2.1.1|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.127|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
