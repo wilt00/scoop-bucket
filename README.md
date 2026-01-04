@@ -22,7 +22,7 @@ scoop install wilt00/<app_name>
 |[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.0.67|Anthropic's agentic coding tool that lives in your terminal
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dots](https://github.com/nor0x/Dots)|2.1.1|The friendly .NET SDK manager
-|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.127|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
+|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.135|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|20232417346|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
