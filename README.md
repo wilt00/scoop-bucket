@@ -37,7 +37,7 @@ scoop install wilt00/<app_name>
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
 |[riffext](https://github.com/PKBeam/RiffExt)|1.1.2|Extract RIFF data from arbitrary files
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer/)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
-|[siril](https://siril.org/)|1.4.0|Astronomical image processing software
+|[siril](https://siril.org/)|1.4.1|Astronomical image processing software
 |[soupault](https://github.com/PataphysicalSociety/soupault)|5.2.0|HTML manipulation tool
 |[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
