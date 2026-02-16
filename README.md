@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[dots](https://github.com/nor0x/Dots)|2.2.0|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.135|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|22019579403|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|22037494935|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|39.1|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
