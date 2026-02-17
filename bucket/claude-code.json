@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
-    "version": "2.1.32",
+    "version": "2.1.37",
     "description": "Anthropic's agentic coding tool that lives in your terminal",
     "homepage": "https://docs.anthropic.com/en/docs/claude-code/overview",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/win32-x64/claude.exe",
-            "hash": "dcc6a3588397644cbd0ba16be91599dbf51722f814e858af7ab13f2eaff91b9f"
+            "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/win32-x64/claude.exe",
+            "hash": "8a54bdc2c7d60e84b92f5aeedb9b66791006cfff992415e58e15a6df52842859"
         }
     },
     "bin": "claude.exe",
