@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[dots](https://github.com/nor0x/Dots)|2.2.0|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.135|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|22037494935|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|22102181493|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|39.1|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
@@ -37,7 +37,7 @@ scoop install wilt00/<app_name>
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
 |[riffext](https://github.com/PKBeam/RiffExt)|1.1.2|Extract RIFF data from arbitrary files
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer/)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
-|[siril](https://siril.org/)|1.4.1|Astronomical image processing software
+|[siril](https://siril.org/)|1.4.2|Astronomical image processing software
 |[soupault](https://github.com/PataphysicalSociety/soupault)|5.2.0|HTML manipulation tool
 |[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
