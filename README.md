@@ -29,7 +29,7 @@ scoop install wilt00/<app_name>
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|39.1|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.8|Oracle GraalVM; manifest does not modify environment variables
-|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.9.3|Distribute and run LLMs with a single file.
+|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.0|Distribute and run LLMs with a single file.
 |[lumafly](https://github.com/TheMulhima/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
