@@ -1,6 +1,8 @@
 @"
 # Scoop Bucket
 
+[![Manifests](https://img.shields.io/github/directory-file-count/wilt00/scoop-bucket/bucket?type=file&extension=json&style=flat&label=Manifests)](https://github.com/wilt00/scoop-bucket/tree/master/bucket)
+
 A personal, unofficial [scoop](https://scoop.sh) bucket of miscellaneous Windows applications.
 
 ## Usage
