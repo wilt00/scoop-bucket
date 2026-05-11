@@ -23,6 +23,6 @@ jobs:
                 git config user.name "Github Actions"
                 git config user.email "<>"
                 git add README.md
-                git commit -m "[Bot] Update readme"
+                git commit -m "[Bot] Update readme [scoop skip]"
                 git push origin main
 
