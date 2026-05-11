@@ -16,7 +16,7 @@ jobs:
               with:
                 fetch-depth: 1
             - name: Generate Readme.md
-              run: .\scripts\Generate-Readme.ps1
+              run: .\bin\Generate-Readme.ps1
               shell: pwsh
             - name: Push updates
               run: |
