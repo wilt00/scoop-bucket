@@ -17,33 +17,34 @@ scoop install wilt00/<app_name>
 |------|-------------|---------|
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
-|[axelchat](https://github.com/3dproger/AxelChat/)|0.47.1|Displays chats from multiple services in one window
+|[axelchat](https://github.com/3dproger/AxelChat/)|0.47.4|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2025-12-18|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
-|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.77|Anthropic's agentic coding tool that lives in your terminal
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-05-15|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.132|Anthropic's agentic coding tool that lives in your terminal
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dots](https://github.com/nor0x/Dots)|2.2.0|The friendly .NET SDK manager
-|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|0.12.152|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
-|[dusk](https://github.com/TwilitRealm/dusk)|1.0.0|Dusk is a reverse-engineered reimplementation of Twilight Princess.
+|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
+|[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
+|[dusklight](https://github.com/TwilitRealm/dusklight)|1.1.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|23643473464|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|24998283339|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|39.1|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
-|[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.8|Oracle GraalVM; manifest does not modify environment variables
-|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.0|Distribute and run LLMs with a single file.
+|[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.11|Oracle GraalVM; manifest does not modify environment variables
+|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.1|Distribute and run LLMs with a single file.
 |[lumafly](https://github.com/TheMulhima/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
-|[podsync-nightly](https://github.com/mxpv/podsync)|2026-05-11|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build
+|[podsync-nightly](https://github.com/mxpv/podsync)|2026-05-13|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer/)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
-|[siril](https://siril.org/)|1.4.2|Astronomical image processing software
-|[soupault](https://github.com/PataphysicalSociety/soupault)|5.2.0|HTML manipulation tool
+|[siril](https://siril.org/)|1.4.3-ucrt64|Astronomical image processing software
+|[soupault](https://github.com/PataphysicalSociety/soupault)|5.3.0|HTML manipulation tool
 |[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features
