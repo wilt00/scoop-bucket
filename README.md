@@ -22,6 +22,9 @@ scoop install wilt00/<app_name>
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 |[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-05-15|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
+|[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker
+|[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker
+|[dependency-walker](http://www.dependencywalker.com/)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules
 |[dots](https://github.com/nor0x/Dots)|2.2.0|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusklight](https://github.com/TwilitRealm/dusklight)|1.1.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.

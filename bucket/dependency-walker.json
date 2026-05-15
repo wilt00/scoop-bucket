@@ -1,0 +1,33 @@
+{
+    "version": "2.2",
+    "description": "Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules",
+    "homepage": "http://www.dependencywalker.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.dependencywalker.com/depends22_x64.zip",
+            "hash": "35db68a613874a2e8c1422eb0ea7861f825fc71717d46dabf1f249ce9634b4f1"
+        },
+        "32bit": {
+            "url": "http://www.dependencywalker.com/depends22_x86.zip",
+            "hash": "03d73abba0e856c81ba994505373fdb94a13b84eb29e6c268be1bf21b7417ca3"
+        }
+    },
+    "bin": "depends.exe",
+    "shortcuts": [
+        [
+            "depends.exe",
+            "Dependency Walker"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.dependencywalker.com/",
+        "regex": "Dependency Walker ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.dependencywalker.com/depends22_x64.zip",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
