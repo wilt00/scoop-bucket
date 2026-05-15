@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
-    "version": "1.4.2",
+    "version": "1.4.3-ucrt64",
     "description": "Astronomical image processing software",
     "homepage": "https://siril.org/",
     "license": "GPL-3.0",
-    "url": "https://free-astro.org/download/siril-1.4.2_win.zip",
-    "hash": "5c6989cae15aed0ca4f00ea6e705d68bcc947861efb19ed1997a93febcc123ce",
+    "url": "https://free-astro.org/download/siril-1.4.3-ucrt64_win.zip",
+    "hash": "8f6daefc7bcf50e094221d69329bbf3b145da579d137486cccb136bbc47db8dc",
     "extract_dir": "siril",
     "bin": "bin\\siril-cli.exe",
     "shortcuts": [
