@@ -11,6 +11,10 @@
         }
     },
     "bin": "claude.exe",
+    "notes": "DEPRECATED: please use the official manifest in main/claude-code. There are no advantages to using this personal hobby manifest and my update pipeline breaks often.",
+    "suggest": {
+        "claude-code": "main/claude-code"
+    },
     "checkver": {
         "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/stable",
         "regex": "(.*)"

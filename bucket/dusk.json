@@ -13,5 +13,8 @@
     "homepage": "https://github.com/TwilitRealm/dusk",
     "bin": "dusk.exe",
     "notes": "DEPRECATED: project has been renamed to Dusklight",
+    "suggest": {
+        "Dusklight": "wilt00/dusklight"
+    },
     "shortcuts": [[ "dusk.exe", "Dusk" ]]
 }
