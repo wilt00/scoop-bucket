@@ -1,0 +1,91 @@
+name: Excavator notify
+on:
+  workflow_run:
+    workflows: ["Excavator"]
+    types: [completed]
+
+jobs:
+  scan:
+    name: Scan log and open issues
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      actions: read
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure label exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create excavator-failure \
+            --color B60205 \
+            --description "An automatic excavator update failed" \
+            --force
+
+      - name: Fetch Excavator run log
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          gh run view "$RUN_ID" --log --repo "$GITHUB_REPOSITORY" > run.full.log
+          # Strip "<job>\t<step>\t<timestamp> " prefix; keep just the message
+          sed -E 's/^[^\t]*\t[^\t]*\t[^ ]+ //' run.full.log > run.log
+
+      - name: Open issues for failing manifests
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          opened=0
+          skipped=0
+
+          for path in bucket/*.json; do
+            m=$(basename "$path" .json)
+
+            # A failure line starts with "<manifest>: " followed by a non-digit.
+            # Version output (success) always starts with a digit after the colon.
+            # Also captures one trailing continuation line (e.g. "URL ... is not valid").
+            err=$(awk -v m="$m" '
+              BEGIN { prefix = m ": "; capture = 0 }
+              index($0, prefix) == 1 {
+                rest = substr($0, length(prefix) + 1)
+                if (rest !~ /^[0-9]/) { print; capture = 1; next }
+                capture = 0; next
+              }
+              capture && /^[A-Za-z0-9._-]+: / { capture = 0; next }
+              capture { print; capture = 0 }
+            ' run.log || true)
+
+            [ -z "$err" ] && continue
+
+            title="Excavator: $m failed to update"
+            existing=$(gh issue list \
+              --repo "$GITHUB_REPOSITORY" \
+              --state open \
+              --label excavator-failure \
+              --json number,title \
+              --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+
+            if [ -n "$existing" ]; then
+              echo "Already tracked: $m (#$existing)"
+              skipped=$((skipped + 1))
+              continue
+            fi
+
+            body=$(printf 'Excavator failed to update `%s`.\n\n```\n%s\n```\n\n[View run](%s)\n' \
+              "$m" "$err" "$RUN_URL")
+            gh issue create \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$title" \
+              --body "$body" \
+              --label excavator-failure
+            opened=$((opened + 1))
+          done
+
+          echo "Opened $opened issue(s); skipped $skipped already-tracked failure(s)."
