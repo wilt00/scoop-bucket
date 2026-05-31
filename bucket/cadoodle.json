@@ -22,7 +22,7 @@
     "pre_install": [
         "$jvm = Get-Content \"$dir\\jvm.json\" -Raw | ConvertFrom-Json",
         "$a = $jvm.'Windows-x64'.jvmargs -join ' '",
-        "$lines = '@echo off', 'set \"JW=%~dp0..\\..\\zulufx25-jre\\current\\bin\\javaw.exe\"', 'if not exist \"%JW%\" set \"JW=javaw\"', ('start \"\" \"%JW%\" ' + $a + ' -jar \"%~dp0CaDoodle-Application.jar\" %*')",
+        "$lines = '@echo off', 'set \"JW=%~dp0..\\..\\zulufx25-jre-isolate\\current\\bin\\javaw.exe\"', 'if not exist \"%JW%\" set \"JW=javaw\"', ('start \"\" \"%JW%\" ' + $a + ' -jar \"%~dp0CaDoodle-Application.jar\" %*')",
         "Set-Content -Path \"$dir\\cadoodle.bat\" -Value $lines -Encoding Ascii",
         "if ($bucket) { $ic = Join-Path (Find-BucketDirectory $bucket -Root) 'icons\\cadoodle.ico'; if (Test-Path $ic) { Copy-Item $ic \"$dir\\cadoodle.ico\" -Force } }"
     ],
