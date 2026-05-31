@@ -33,7 +33,7 @@ scoop install wilt00/<app_name>
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|24998283339|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
-|[fire-toolbox](https://xdaforums.com/t/3889604/)|39.1|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
+|[fire-toolbox](https://xdaforums.com/t/3889604/)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.11|Oracle GraalVM; manifest does not modify environment variables
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.2|Distribute and run LLMs with a single file.
