@@ -54,6 +54,7 @@ scoop install wilt00/<app_name>
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features
 |[zenbreak](https://github.com/Giuliopime/ZenBreak)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
+|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx/)|25.34.17|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables
 
 ### Deprecated
 
