@@ -5,7 +5,7 @@
     "homepage": "https://cadoodlecad.com/",
     "license": "CC0-1.0",
     "depends": [
-        "java/zulufx25-jre"
+        "zulufx25-jre-isolate"
     ],
     "architecture": {
         "64bit": {
