@@ -21,7 +21,7 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[cadoodle](https://cadoodlecad.com/)|0.42.24|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-06-02|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-06-03|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -36,7 +36,7 @@ scoop install wilt00/<app_name>
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.11|Oracle GraalVM; manifest does not modify environment variables
-|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.2|Distribute and run LLMs with a single file.
+|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.3|Distribute and run LLMs with a single file.
 |[lumafly](https://github.com/TheMulhima/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.3.5|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
