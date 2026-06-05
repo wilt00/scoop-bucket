@@ -15,6 +15,7 @@ scoop install wilt00/<app_name>
 
 | Name | Description | Version |
 |------|-------------|---------|
+|[arkscript](https://github.com/ArkScript-lang/Ark)|4.6.0|A small, fast, functional and scripting language for C++ projects
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.47.4|Displays chats from multiple services in one window
