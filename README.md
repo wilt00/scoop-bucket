@@ -22,7 +22,7 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[cadoodle](https://cadoodlecad.com/)|0.43.0|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-06-09|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-06-10|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
