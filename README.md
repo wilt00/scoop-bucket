@@ -40,6 +40,7 @@ scoop install wilt00/<app_name>
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.3|Distribute and run LLMs with a single file.
 |[lumafly](https://github.com/TheMulhima/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.3.5|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
+|[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
