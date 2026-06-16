@@ -20,9 +20,9 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.47.4|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
-|[cadoodle](https://cadoodlecad.com/)|0.44.3|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com/)|0.44.4|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-06-15|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-06-16|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.5.5|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -30,7 +30,7 @@ scoop install wilt00/<app_name>
 |[dependency-walker](http://www.dependencywalker.com/)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules
 |[dots](https://github.com/nor0x/Dots)|2.2.0|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
-|[dusklight](https://github.com/TwilitRealm/dusklight)|1.3.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
+|[dusklight](https://github.com/TwilitRealm/dusklight)|1.4.0|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com/)|1.1.0.27|Command-line interface for the Everything search tool
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|24998283339|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
