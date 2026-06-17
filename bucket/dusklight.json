@@ -1,15 +1,15 @@
 {
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Dusklight is a reverse-engineered reimplementation of Twilight Princess.",
     "license": "CC0-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TwilitRealm/dusklight/releases/download/v1.4.0/Dusklight-v1.4.0-win32-x86_64.zip",
-            "hash": "d61054bd5c0eb2cef3f10aa4ce828e2f7ef1e5747e34d407c1581d93383d64b8"
+            "url": "https://github.com/TwilitRealm/dusklight/releases/download/v1.4.1/Dusklight-v1.4.1-win32-x86_64.zip",
+            "hash": "08af700bd411f388489e2052e96f1b5887f410e56bb8204db977dac81c3e797f"
         }
     },
-    "extract_dir": "Dusklight-v1.4.0-win32-x86_64",
+    "extract_dir": "Dusklight-v1.4.1-win32-x86_64",
     "homepage": "https://github.com/TwilitRealm/dusklight",
     "bin": "dusklight.exe",
     "shortcuts": [
