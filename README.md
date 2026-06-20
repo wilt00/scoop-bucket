@@ -31,7 +31,7 @@ scoop install wilt00/<app_name>
 |[dots](https://h3y.studio/dots/)|2.2.0|The friendly .NET SDK manager
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusklight](https://twilitrealm.dev/)|1.4.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[es](https://www.voidtools.com/)|1.1.0.30|Command-line interface for the Everything search tool
+|[es](https://www.voidtools.com/)|1.1.0.37|Command-line interface for the Everything search tool
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|24998283339|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
