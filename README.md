@@ -39,6 +39,7 @@ scoop install wilt00/<app_name>
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.11|Oracle GraalVM; manifest does not modify environment variables
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.3|Distribute and run LLMs with a single file.
 |[lumafly](https://github.com/TheMulhima/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
+|[maki](https://maki.sh/)|0.3.18|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.3.5|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
