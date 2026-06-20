@@ -55,6 +55,7 @@ scoop install wilt00/<app_name>
 |[soupault](https://soupault.net/)|5.3.0|HTML manipulation tool
 |[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
+|[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.3|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features
 |[zenbreak](https://zenbreak.app/)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
