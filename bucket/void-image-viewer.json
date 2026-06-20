@@ -25,6 +25,7 @@
             "void Image Viewer"
         ]
     ],
+    "persist": ["voidImageViewer.ini"],
     "checkver": {
         "github": "https://github.com/voidtools/voidImageViewer"
     },
