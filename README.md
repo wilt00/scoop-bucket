@@ -38,6 +38,7 @@ scoop install wilt00/<app_name>
 |[flix-lang](https://flix.dev/)|0.73.0|Flix is a statically typed functional, imperative, and logic programming language.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.11|Oracle GraalVM; manifest does not modify environment variables
+|[kirastudio](https://kirastudio.org)|1.0.7|A lightweight, cross-platform music studio built for clarity, automation, and sound creation
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.3|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly/)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[maki](https://maki.sh/)|0.3.18|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
