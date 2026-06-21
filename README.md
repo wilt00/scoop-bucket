@@ -56,6 +56,7 @@ scoop install wilt00/<app_name>
 |[siril](https://siril.org/)|1.4.4-ucrt64|Astronomical image processing software
 |[soupault](https://soupault.net/)|5.3.0|HTML manipulation tool
 |[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
+|[tuxedo](https://github.com/webstonehq/tuxedo/)|2026.6.3|A fast, keyboard-driven terminal UI for todo.txt.
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.3|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc
