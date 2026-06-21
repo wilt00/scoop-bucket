@@ -18,6 +18,7 @@
             "hash": "1982d022b46465bb8e0514d2f1b05eb9edc664c1f7d412aeb61ea8c634ec6ef6"
         }
     },
+    "pre_install": "if (!(Test-Path $dir/voidImageViewer.ini)) { New-Item -Path $dir/voidImageViewer.ini -ItemType File }",
     "bin": "voidImageViewer.exe",
     "shortcuts": [
         [
