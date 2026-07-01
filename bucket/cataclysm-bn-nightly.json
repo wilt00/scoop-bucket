@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
-    "version": "2026-06-30",
+    "version": "2026-07-01",
     "description": "Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.",
     "license": "CC-BY-SA-3.0, OFL-1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cataclysmbn/Cataclysm-BN/releases/download/2026-06-30/cbn-windows-tiles-x64-msvc-2026-06-30.zip",
-            "hash": "5fc015a21a9fb845be4720f977a971629e1af49089cf5f717b48de35c15bd116"
+            "url": "https://github.com/cataclysmbn/Cataclysm-BN/releases/download/2026-07-01/cbn-windows-tiles-x64-msvc-2026-07-01.zip",
+            "hash": "e44ce0322ab57b35677c076730809efab496f9d92c0fd14c2adb4041f76f2080"
         }
     },
     "homepage": "https://docs.cataclysmbn.org/en/",
