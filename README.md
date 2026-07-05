@@ -20,9 +20,9 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.48.0|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
-|[cadoodle](https://cadoodlecad.com/)|0.46.015|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com/)|0.46.022|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-07-04|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-07-05|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -38,7 +38,7 @@ scoop install wilt00/<app_name>
 |[flix-lang](https://flix.dev/)|0.73.0|Flix is a statically typed functional, imperative, and logic programming language.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.11|Oracle GraalVM; manifest does not modify environment variables
-|[kirastudio](https://kirastudio.org)|1.0.7|A lightweight, cross-platform music studio built for clarity, automation, and sound creation
+|[kirastudio](https://kirastudio.org)|1.1.0|A lightweight, cross-platform music studio built for clarity, automation, and sound creation
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.3|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly/)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[maki](https://maki.sh/)|0.3.18|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
