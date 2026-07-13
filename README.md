@@ -22,7 +22,7 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
 |[cadoodle](https://cadoodlecad.com/)|0.46.037|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-07-12|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-07-13|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -43,7 +43,7 @@ scoop install wilt00/<app_name>
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.3|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly/)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[maki](https://maki.sh/)|0.3.18|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
-|[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.3.6|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
+|[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.0|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
