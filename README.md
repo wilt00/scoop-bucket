@@ -47,6 +47,7 @@ scoop install wilt00/<app_name>
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.16|Audio file tag editor
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
+|[ovrley](https://www.ovrley.cc/)|2.13.0|Build telemetry overlay for videos from GPX, FIT and SRT activity data
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
 |[podsync-nightly](https://github.com/mxpv/podsync)|2026-07-12|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
