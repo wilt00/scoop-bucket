@@ -20,9 +20,9 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.48.0|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.4.0.2|A better way to configure ClearType font smoothing on Windows 10
-|[cadoodle](https://cadoodlecad.com/)|0.46.037|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com/)|0.46.039|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-07-27|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-07-28|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -59,7 +59,7 @@ scoop install wilt00/<app_name>
 |[soupault](https://soupault.net/)|5.3.0|HTML manipulation tool
 |[tic-80-nightly](https://tic80.com/)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor/)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX
-|[tilf](https://github.com/danterolle/tilf)|0.2|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
+|[tilf](https://github.com/danterolle/tilf)|0.4|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
 |[tuxedo](https://github.com/webstonehq/tuxedo/)|2026.7.1|A fast, keyboard-driven terminal UI for todo.txt.
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
 |[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support
