@@ -4,6 +4,9 @@
     "description": "An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.",
     "homepage": "https://maki.sh/",
     "license": "MIT",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/tontinton/maki/releases/download/v0.4.11/maki-v0.4.11-x86_64-pc-windows-msvc.zip",

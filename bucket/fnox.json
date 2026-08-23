@@ -4,6 +4,9 @@
     "description": "encrypted/remote secret manager",
     "homepage": "https://fnox.jdx.dev/",
     "license": "MIT",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/jdx/fnox/releases/download/v1.34.0/fnox-x86_64-pc-windows-msvc.zip",
