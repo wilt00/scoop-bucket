@@ -15,65 +15,67 @@ scoop install wilt00/<app_name>
 
 | Name | Description | Version |
 |------|-------------|---------|
-|[arkscript](https://arkscript-lang.dev/)|4.7.2|A small, fast, functional and scripting language for C++ projects
-|[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network
-|[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
-|[axelchat](https://github.com/3dproger/AxelChat/)|0.48.0|Displays chats from multiple services in one window
-|[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10
-|[c2patool](https://github.com/contentauth/c2pa-rs/tree/main/cli)|0.27.15|Tool for displaying and creating C2PA manifests.
-|[cadoodle](https://cadoodlecad.com/)|0.47.010|A drag-and-drop CAD package for beginners.
+|[arkscript](https://arkscript-lang.dev)|4.7.2|A small, fast, functional and scripting language for C++ projects.
+|[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network.
+|[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
+|[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
+|[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
+|[c2patool](https://contentauthenticity.org)|0.27.15|Official tool for displaying and creating C2PA manifests and media assets.
+|[cadoodle](https://cadoodlecad.com)|0.47.010|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-08-23|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
-|[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-08-23|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
-|[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker
-|[dependency-walker](http://www.dependencywalker.com/)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules
-|[dots](https://h3y.studio/dots/)|2.2.0|The friendly .NET SDK manager
+|[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker.
+|[dependency-walker](http://www.dependencywalker.com)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules.
+|[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.5|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
+|[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
-|[dusklight](https://twilitrealm.dev/)|1.4.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[es](https://www.voidtools.com/)|1.1.0.37|Command-line interface for the Everything search tool
+|[dusklight](https://twilitrealm.dev)|1.4.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
+|[es](https://www.voidtools.com)|1.1.0.37|Command-line interface for the Everything search tool.
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|32252451105|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
-|[fire-toolbox](https://xdaforums.com/t/3889604/)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
-|[flix-lang](https://flix.dev/)|0.73.0|Flix is a statically typed functional, imperative, and logic programming language.
-|[fnox](https://fnox.jdx.dev/)|1.34.0|encrypted/remote secret manager
-|[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
-|[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.12|Oracle GraalVM; manifest does not modify environment variables
-|[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation
+|[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
+|[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.
+|[fnox](https://fnox.jdx.dev)|1.34.0|encrypted/remote secret manager.
+|[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
+|[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
+|[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.5|Distribute and run LLMs with a single file.
-|[lumafly](https://themulhima.github.io/Lumafly/)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
-|[maki](https://maki.sh/)|0.4.11|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
-|[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.0|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
+|[lumafly](https://themulhima.github.io/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
+|[maki](https://maki.sh)|0.4.11|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.0|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts.
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
-|[ntag](https://github.com/nrittsti/ntag)|1.2.17|Audio file tag editor
-|[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
-|[ovrley](https://www.ovrley.cc/)|2.28.3|Build telemetry overlay for videos from GPX, FIT and SRT activity data
-|[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
-|[podsync-nightly](https://github.com/mxpv/podsync)|2026-08-23|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build
-|[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
-|[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI
-|[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files
-|[riven-image-viewer](https://www.mystellany.com/riven/imageviewer/)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
-|[siril](https://siril.org/)|1.4.4-ucrt64|Astronomical image processing software
-|[soupault](https://soupault.net/)|5.3.0|HTML manipulation tool
-|[tic-80-nightly](https://tic80.com/)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
-|[tikz-editor](https://tikz.dev/editor/)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX
-|[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor
-|[tuxedo](https://github.com/webstonehq/tuxedo/)|2026.7.1|A fast, keyboard-driven terminal UI for todo.txt.
-|[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets
-|[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support
-|[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc
-|[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features
-|[zenbreak](https://zenbreak.app/)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
-|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx/)|25.36.15|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables
+|[ntag](https://github.com/nrittsti/ntag)|1.2.17|Audio file tag editor.
+|[numi](https://numi.app)|0.3.0|A beautiful calculator app for macOS and Windows.
+|[ovrley](https://www.ovrley.cc)|2.34.1|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
+|[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
+|[podsync-nightly](https://github.com/mxpv/podsync)|2026-08-23|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
+|[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
+|[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
+|[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
+|[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
+|[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
+|[siril](https://siril.org)|1.4.4-ucrt64|Astronomical image processing software.
+|[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
+|[tic-80-nightly](https://tic80.com)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
+|[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
+|[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
+|[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.5|Single-file speech-to-text tool supporting modern GGUF speech models.
+|[tuxedo](https://github.com/webstonehq/tuxedo)|2026.7.1|A fast, keyboard-driven terminal UI for todo.txt.
+|[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets.
+|[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support.
+|[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.
+|[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features.
+|[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
+|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.15|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
 
 ### Deprecated
 
 | Name | Description | Version |
 |------|-------------|---------|
-|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.231|Anthropic's agentic coding tool that lives in your terminal
+|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.231|Anthropic's agentic coding tool that lives in your terminal.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 
 Do not edit this file - generated from [bin/Generate-Readme.ps1](bin/Generate-Readme.ps1)
