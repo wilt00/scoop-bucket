@@ -15,7 +15,7 @@ scoop install wilt00/<app_name>
 
 | Name | Description | Version |
 |------|-------------|---------|
-|[arkscript](https://arkscript-lang.dev/)|4.6.0|A small, fast, functional and scripting language for C++ projects
+|[arkscript](https://arkscript-lang.dev/)|4.7.2|A small, fast, functional and scripting language for C++ projects
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.48.0|Displays chats from multiple services in one window
@@ -43,7 +43,7 @@ scoop install wilt00/<app_name>
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.5|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly/)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
-|[maki](https://maki.sh/)|0.3.18|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[maki](https://maki.sh/)|0.4.11|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.0|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.17|Audio file tag editor
