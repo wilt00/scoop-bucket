@@ -57,18 +57,27 @@ jobs:
               --json number,title \
               --jq ".[] | select(.title == \"$title\") | .number" | head -1)
 
-            # A failure line starts with "<manifest>: " followed by a non-digit.
-            # Version output (success) always starts with a digit after the colon.
-            # Also captures one trailing continuation line (e.g. "URL ... is not valid").
+            # Capture direct checkver failures ("<manifest>: <non-digit>") and
+            # autoupdate failures emitted later in a successful version block as
+            # "ERROR Could not update <manifest>, ...". Excavator does not fail
+            # the workflow when an individual manifest's autoupdate fails.
             err=$(awk -v m="$m" '
-              BEGIN { prefix = m ": "; capture = 0 }
+              BEGIN { prefix = m ": "; in_block = 0; direct = 0 }
               index($0, prefix) == 1 {
                 rest = substr($0, length(prefix) + 1)
-                if (rest !~ /^[0-9]/) { print; capture = 1; next }
-                capture = 0; next
+                in_block = 1
+                if (rest !~ /^[0-9]/) { print; direct = 1 }
+                next
               }
-              capture && /^[A-Za-z0-9._-]+: / { capture = 0; next }
-              capture { print; capture = 0 }
+              in_block && /^[A-Za-z0-9._-]+: / { in_block = 0; direct = 0 }
+              !in_block { next }
+              index($0, "ERROR Could not update " m ",") == 1 {
+                if (previous ~ /^URL .* is not valid$/) print previous
+                print
+                next
+              }
+              direct { print; direct = 0; next }
+              { previous = $0 }
             ' run.log || true)
 
             if [ -n "$err" ]; then
