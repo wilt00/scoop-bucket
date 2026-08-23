@@ -1,7 +1,7 @@
 {
     "version": "2.2",
-    "description": "Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules",
-    "homepage": "http://www.dependencywalker.com/",
+    "description": "Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules.",
+    "homepage": "http://www.dependencywalker.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {

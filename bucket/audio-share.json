@@ -1,6 +1,6 @@
 {
     "version": "0.3.4",
-    "description": "Audio Share GUI client; share Windows/Linux audio to Android phone over network",
+    "description": "Audio Share GUI client; share Windows/Linux audio to Android phone over network.",
     "homepage": "https://github.com/mkckr0/audio-share",
     "license": "Apache-2.0",
     "suggest": {

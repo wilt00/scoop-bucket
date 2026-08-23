@@ -9,7 +9,7 @@
             "hash": "08af700bd411f388489e2052e96f1b5887f410e56bb8204db977dac81c3e797f"
         }
     },
-    "homepage": "https://twilitrealm.dev/",
+    "homepage": "https://twilitrealm.dev",
     "bin": "dusklight.exe",
     "shortcuts": [
         [

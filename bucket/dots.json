@@ -1,8 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
     "version": "2.2.0",
-    "description": "The friendly .NET SDK manager",
-    "homepage": "https://h3y.studio/dots/",
+    "description": "The friendly .NET SDK manager.",
+    "homepage": "https://h3y.studio/dots",
     "license": "CC-BY-NC-4.0",
     "architecture": {
         "64bit": {

@@ -19,12 +19,13 @@ The `wiki/` directory is a local checkout of Scoop's wiki and contains the autho
 
 Prefer this repository-local documentation over assumptions about Scoop behavior.
 
-## Property placement
+## Property placement and architecture
 
 - Put properties at the highest shared level that is valid.
 - Keep `architecture` entries limited to values that genuinely differ by architecture, typically `url` and `hash`.
-- In particular, keep `extract_dir`, `extract_to`, `bin`, `shortcuts`, and similar properties at the top level when their values are identical for every architecture.
-- Move a property into an architecture entry only when its value actually differs between architectures.
+- Keep `extract_dir`, `extract_to`, `bin`, `shortcuts`, and similar properties at the top level when their values are identical for every architecture; move them into architecture only when paths or layouts differ.
+- Support every Windows architecture for which upstream publishes a working asset, including ARM64 and 32-bit. Conversely, use `architecture` to restrict a package when upstream only supports one architecture.
+- Do not expose GUI-only applications through `bin`. For CLI-first applications, do not add a redundant Start Menu shortcut unless it has real value.
 
 ## Version checks
 
@@ -46,7 +47,31 @@ When the standard GitHub checkver regex is insufficient to extract a version, fo
 }
 ```
 
+When release order is not reliable or version selection requires semantic comparison, use a short `checkver.script` to filter, cast versions to `[version]`, sort, and return the result rather than trusting feed order.
+
+Keep regexes constrained to the intended tags or assets, escape literal filename dots such as `\.zip`, and use named captures when an asset variant must be carried into autoupdate as `$matchName`.
+
 As always, verify with `checkver.ps1`.
+
+## Autoupdate hashes
+
+Use upstream checksum files whenever available. Prefer the shortest valid shared configuration at the top of `autoupdate`, for example:
+
+```json
+"hash": {
+    "url": "$url.sha256"
+}
+```
+
+or:
+
+```json
+"hash": {
+    "url": "$baseurl/SHA256SUMS"
+}
+```
+
+Do not repeat identical hash extraction under every architecture. Only configure hash extraction when the upstream maintainer explicitly publishes checksums, such as a checksum file uploaded with the release or checksum text in the release description. Do not query GitHub's API to extract GitHub-generated asset `digest` values; let Scoop download and hash the asset normally instead. Test the resulting autoupdate rather than assuming a checksum file's format.
 
 ## Runtime dependencies
 
@@ -62,7 +87,7 @@ For example, output such as the following confirms a dependency on the Visual C+
 VCRUNTIME140.dll => /c/WINDOWS/SYSTEM32/VCRUNTIME140.dll (0x7ffd28800000)
 ```
 
-When a `VCRUNTIME` dependency is present, recommend the current runtime through `suggest` rather than scripting its installation:
+When a `VCRUNTIME` dependency resolves from Windows/System32, recommend the current runtime through `suggest` rather than scripting its installation:
 
 ```json
 "suggest": {
@@ -70,7 +95,29 @@ When a `VCRUNTIME` dependency is present, recommend the current runtime through 
 }
 ```
 
-Only add suggestions for dependencies that are actually required or materially useful.
+Do not add the suggestion when the package ships and resolves its own runtime DLLs. Only add suggestions for dependencies that are actually required or materially useful. Check for other material runtime requirements too, such as WebView2, Java, or an Android SDK, and use the appropriate bucket manifest.
+
+## Extraction and filenames
+
+- Prefer Scoop's native `extract_dir`, `extract_to`, and MSI extraction behavior over custom extraction scripts.
+- Use `extract_to` when an archive contains files such as `manifest.json` that would collide with Scoop's own metadata.
+- Rename a downloaded executable with a URL fragment such as `#/program.exe` instead of adding a rename script or an unnecessarily complex aliased `bin` entry.
+- Put an architecture-dependent `extract_dir` in each architecture entry, but do not duplicate an invariant `extract_dir` in `autoupdate`.
+
+## Scripts and persistence
+
+- Use the simplest suitable script property. Prefer a concise `pre_install` command over an `installer.script` wrapper for one-step preparation.
+- Write idiomatic PowerShell: pipeline objects, use `-ErrorAction Ignore` for expected missing paths, and use `-Force` where replacement is intended. Avoid redundant existence checks and loops.
+- Account for global installs when scripts use registry hives or user-specific paths; select HKLM instead of HKCU where appropriate.
+- Test persistence against the application's actual write behavior. Hardlinks do not preserve files that the application replaces rather than modifies in place; copy such files during install/uninstall and overwrite deliberately.
+- Keep JSON script structure valid: `installer`, `uninstaller`, and hook properties must have the exact scalar/array/object shape Scoop expects.
+
+## Metadata and user experience
+
+- Write concise, neutral descriptions rather than marketing copy or exhaustive feature lists, and end them with a period.
+- When compatible with the above, prefer the app's own description of itself over a third-party summary. Avoid repeating the app name in the description.
+- Prefer the authoritative product website over its source repository when one exists, and avoid unnecessary trailing slashes.
+- Add `notes` when packaging one of several non-obvious upstream variants or when users need essential post-install context.
 
 ## Running checkver
 

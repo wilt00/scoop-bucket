@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
     "version": "1.11.1",
-    "description": "An open-source modern Dependency Walker",
+    "description": "An open-source modern Dependency Walker.",
     "homepage": "https://github.com/lucasg/Dependencies",
     "license": "MIT",
     "notes": "Includes Peview, which triggers some antivirus software. Install dependencies-no-peview to avoid this.",
@@ -16,7 +16,12 @@
         }
     },
     "bin": "Dependencies.exe",
-    "shortcuts": [["DependenciesGui.exe", "Dependencies"]],
+    "shortcuts": [
+        [
+            "DependenciesGui.exe",
+            "Dependencies"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {

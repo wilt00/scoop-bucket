@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
     "version": "2026.7.1",
     "description": "A fast, keyboard-driven terminal UI for todo.txt.",
-    "homepage": "https://github.com/webstonehq/tuxedo/",
+    "homepage": "https://github.com/webstonehq/tuxedo",
     "license": "MIT",
     "suggest": {
         "vcredist": "extras/vcredist2022"
