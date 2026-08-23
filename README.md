@@ -21,9 +21,9 @@ scoop install wilt00/<app_name>
 |[axelchat](https://github.com/3dproger/AxelChat/)|0.48.0|Displays chats from multiple services in one window
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10
 |[c2patool](https://github.com/contentauth/c2pa-rs/tree/main/cli)|0.27.15|Tool for displaying and creating C2PA manifests.
-|[cadoodle](https://cadoodlecad.com/)|0.46.054|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com/)|0.47.010|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-08-22|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en/)|2026-08-23|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper/)|1.0.0|A text editor specifically designed for writing, particularly fiction
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -37,7 +37,7 @@ scoop install wilt00/<app_name>
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604/)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets
 |[flix-lang](https://flix.dev/)|0.73.0|Flix is a statically typed functional, imperative, and logic programming language.
-|[fnox](https://fnox.jdx.dev/)|1.33.1|encrypted/remote secret manager
+|[fnox](https://fnox.jdx.dev/)|1.34.0|encrypted/remote secret manager
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat"
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org/)|21.0.12|Oracle GraalVM; manifest does not modify environment variables
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation
@@ -50,7 +50,7 @@ scoop install wilt00/<app_name>
 |[numi](https://numi.app/)|0.3.0|A beautiful calculator app for macOS and Windows
 |[ovrley](https://www.ovrley.cc/)|2.28.3|Build telemetry overlay for videos from GPX, FIT and SRT activity data
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch/)|2.2.2|Paul's Extreme Sound Stretch
-|[podsync-nightly](https://github.com/mxpv/podsync)|2026-07-30|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build
+|[podsync-nightly](https://github.com/mxpv/podsync)|2026-08-23|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
