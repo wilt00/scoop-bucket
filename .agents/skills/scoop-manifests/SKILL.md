@@ -28,7 +28,7 @@ Prefer this repository-local documentation over assumptions about Scoop behavior
 
 ## Version checks
 
-Prefer Scoop's standard GitHub checkver whenever the repository uses conventional release tags:
+Always use Scoop's standard GitHub checkver when the app is hosted on Github, as this allows Scoop to manage required API authentication and rate limiting.
 
 ```json
 "checkver": {
@@ -36,9 +36,41 @@ Prefer Scoop's standard GitHub checkver whenever the repository uses conventiona
 }
 ```
 
-Only use a custom `url` and `regex` when standard GitHub checkver cannot identify the intended releases, such as repositories with multiple products in one release feed or nonstandard product-prefixed tags. Before adding a custom regex, verify why the standard form is insufficient.
+When the standard GitHub checkver regex is insufficient to extract a version, for example because multiple apps are released in the same repository, use a custom `jsonpath` and `regex` to extract the version from the upstream release feed or release page HTML. For example:
 
-Keep custom regexes narrowly scoped to the intended asset or tag, and test that they extract the current version.
+```json
+"checkver": {
+    "github": "https://api.github.com/repos/owner/repo/releases",
+    "jsonpath": "$[*].tag_name",
+    "regex": "\"product-v([\\d.]+)\""
+}
+```
+
+As always, verify with `checkver.ps1`.
+
+## Runtime dependencies
+
+Do not rely only on running the executable to detect Microsoft Visual C++ runtime dependencies: an already-installed redistributable masks the requirement. Inspect the executable's dynamically linked libraries from a Git Bash/MSYS shell instead:
+
+```shell
+ldd ./program.exe | grep VCRUNTIME
+```
+
+For example, output such as the following confirms a dependency on the Visual C++ runtime:
+
+```text
+VCRUNTIME140.dll => /c/WINDOWS/SYSTEM32/VCRUNTIME140.dll (0x7ffd28800000)
+```
+
+When a `VCRUNTIME` dependency is present, recommend the current runtime through `suggest` rather than scripting its installation:
+
+```json
+"suggest": {
+    "vcredist": "extras/vcredist2022"
+}
+```
+
+Only add suggestions for dependencies that are actually required or materially useful.
 
 ## Running checkver
 
