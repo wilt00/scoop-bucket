@@ -7,6 +7,18 @@ description: Create, update, and review Scoop manifests in this repository. Use 
 
 Follow `app-name.template.json` and existing manifests in `bucket/`, while keeping each manifest as simple as the upstream release layout permits.
 
+## Scoop documentation
+
+The `wiki/` directory is a local checkout of Scoop's wiki and contains the authoritative documentation, manifest reference, autoupdate guidance, and best practices. Consult the relevant pages there when creating or reviewing manifests, especially:
+
+- `wiki/App-Manifests.md`
+- `wiki/App-Manifest-Autoupdate.md`
+- `wiki/Creating-an-app-manifest.md`
+- `wiki/Pre-Post-(un)install-scripts.md`
+- `wiki/Persistent-data.md`
+
+Prefer this repository-local documentation over assumptions about Scoop behavior.
+
 ## Property placement
 
 - Put properties at the highest shared level that is valid.
@@ -45,5 +57,13 @@ Set `$app` to the manifest name without the `.json` extension. `-Update` rewrite
 2. Inspect the latest upstream release, asset names, archive layout, and license.
 3. Use the standard GitHub checkver unless upstream naming makes it unsuitable.
 4. Minimize architecture-specific properties.
-5. Validate JSON, the downloaded asset hash, archive paths, checkver extraction, and `git diff --check`.
-6. Do not modify unrelated uncommitted files.
+5. Validate JSON, the downloaded asset hash, archive paths, and checkver extraction.
+6. Run the repository test suite from the repository root after making changes:
+
+   ```powershell
+   .\bin\test.ps1
+   ```
+
+   Investigate and report any failures. Do not suppress or fix unrelated failures without the user's approval.
+7. Run `git diff --check`.
+8. Do not modify unrelated uncommitted files.

@@ -1,0 +1,22 @@
+{
+    "files": [
+        {
+            "pattern": "[\\\\/]wiki[\\\\/]",
+            "reason": "The wiki is a separately maintained Git submodule."
+        },
+        {
+            "pattern": "\\.gitmodules$",
+            "reason": "Git requires tab indentation in .gitmodules."
+        },
+        {
+            "pattern": "\\.ico$",
+            "reason": "Icon files are binary and must not be checked as text."
+        }
+    ],
+    "manifests": [
+        {
+            "name": "carp.json",
+            "reason": "Carp 0.6.0 has been released but still does not have Windows assets available."
+        }
+    ]
+}
