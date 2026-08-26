@@ -55,7 +55,9 @@ As always, verify with `checkver.ps1`.
 
 ## Autoupdate hashes
 
-Use upstream checksum files whenever available. Prefer the shortest valid shared configuration at the top of `autoupdate`, for example:
+Before drafting or changing a manifest, inspect all release assets for upstream-published checksum or signature files. Match each checksum to its exact asset and architecture.
+
+Use published checksums whenever available. Put shared hash configuration at the top of `autoupdate` when it applies to every configured architecture:
 
 ```json
 "hash": {
@@ -71,7 +73,7 @@ or:
 }
 ```
 
-Do not repeat identical hash extraction under every architecture. Only configure hash extraction when the upstream maintainer explicitly publishes checksums, such as a checksum file uploaded with the release or checksum text in the release description. Do not query GitHub's API to extract GitHub-generated asset `digest` values; let Scoop download and hash the asset normally instead. Test the resulting autoupdate rather than assuming a checksum file's format.
+Otherwise, put `hash` in the matching architecture block, including for single-architecture manifests. Do not duplicate identical configuration across architectures. Do not use GitHub API-generated asset `digest` values; if upstream publishes no checksum, let Scoop download and hash the asset. Always inspect the checksum file, verify it against the download, and test autoupdate.
 
 ## Runtime dependencies
 
@@ -133,7 +135,7 @@ Set `$app` to the manifest name without the `.json` extension. `-Update` rewrite
 ## Workflow
 
 1. Inspect `app-name.template.json` and a few comparable manifests.
-2. Inspect the latest upstream release, asset names, archive layout, and license.
+2. Inspect the latest upstream release, all asset names (including checksum/signature files), archive layout, and license.
 3. Use the standard GitHub checkver unless upstream naming makes it unsuitable.
 4. Minimize architecture-specific properties.
 5. Validate JSON, the downloaded asset hash, archive paths, and checkver extraction.
