@@ -20,9 +20,9 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
 |[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
-|[cadoodle](https://cadoodlecad.com)|0.46.064|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com)|0.46.068|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-08-25|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-08-26|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -63,7 +63,7 @@ scoop install wilt00/<app_name>
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features.
 |[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
-|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.15|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
+|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.205|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
 
 ### Deprecated
 
@@ -73,7 +73,7 @@ scoop install wilt00/<app_name>
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.0.37|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
-|[maki](https://maki.sh)|0.4.11|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[maki](https://maki.sh)|0.4.12|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[siril](https://siril.org)|1.4.4-ucrt64|DEPRECATED: use extras/siril instead. Astronomical image processing software.
 |[tuxedo](https://github.com/webstonehq/tuxedo)|2026.7.1|DEPRECATED: use main/tuxedo instead. A fast, keyboard-driven terminal UI for todo.txt.
 
