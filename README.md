@@ -30,20 +30,17 @@ scoop install wilt00/<app_name>
 |[dependency-walker](http://www.dependencywalker.com)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules.
 |[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.5|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
-|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusklight](https://twilitrealm.dev)|1.4.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[es](https://www.voidtools.com)|1.1.0.37|Command-line interface for the Everything search tool.
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|32252451105|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.
-|[fnox](https://fnox.jdx.dev)|1.34.0|encrypted/remote secret manager.
+|[fnox](https://fnox.jdx.dev)|1.34.0|Encrypted/remote secret manager.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.5|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
-|[maki](https://maki.sh)|0.4.11|An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.1|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts.
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.17|Audio file tag editor.
@@ -56,13 +53,11 @@ scoop install wilt00/<app_name>
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
-|[siril](https://siril.org)|1.4.4-ucrt64|Astronomical image processing software.
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[tic-80-nightly](https://tic80.com)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
 |[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.5|Single-file speech-to-text tool supporting modern GGUF speech models.
-|[tuxedo](https://github.com/webstonehq/tuxedo)|2026.7.1|A fast, keyboard-driven terminal UI for todo.txt.
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets.
 |[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support.
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.
@@ -75,6 +70,11 @@ scoop install wilt00/<app_name>
 | Name | Description | Version |
 |------|-------------|---------|
 |[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.231|Anthropic's agentic coding tool that lives in your terminal.
+|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
+|[es](https://www.voidtools.com)|1.1.0.37|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
+|[maki](https://maki.sh)|0.4.11|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[siril](https://siril.org)|1.4.4-ucrt64|DEPRECATED: use extras/siril instead. Astronomical image processing software.
+|[tuxedo](https://github.com/webstonehq/tuxedo)|2026.7.1|DEPRECATED: use main/tuxedo instead. A fast, keyboard-driven terminal UI for todo.txt.
 
 Do not edit this file - generated from [bin/Generate-Readme.ps1](bin/Generate-Readme.ps1)
