@@ -20,7 +20,6 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
 |[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
-|[c2patool](https://contentauthenticity.org)|0.27.15|Official tool for displaying and creating C2PA manifests and media assets.
 |[cadoodle](https://cadoodlecad.com)|0.46.064|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 |[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-08-25|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
