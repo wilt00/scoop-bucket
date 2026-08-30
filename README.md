@@ -47,7 +47,7 @@ scoop install wilt00/<app_name>
 |[numi](https://numi.app)|0.3.0|A beautiful calculator app for macOS and Windows.
 |[ovrley](https://www.ovrley.cc)|2.36.1|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
-|[podsync-nightly](https://github.com/mxpv/podsync)|2026-08-25|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
+|[podsync-nightly](https://github.com/mxpv/podsync)|2026-08-30|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
