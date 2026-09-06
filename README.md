@@ -36,7 +36,7 @@ scoop install wilt00/<app_name>
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
 |[fnox](https://fnox.jdx.dev)|1.35.1|Encrypted/remote secret manager.
-|[freepiano](https://freepiano.tiwb.com/en/)|1.8|Virtual MIDI keyboard and VST host.<br />This manifest is pinned to version 1.8, the final release with published source code.
+|[freepiano1](https://freepiano.tiwb.com/en/)|1.8|Virtual MIDI keyboard and VST host.<br />This manifest is pinned to version 1.8, the final release with published source code.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
