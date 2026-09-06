@@ -56,7 +56,7 @@ Keep regexes constrained to the intended tags or assets, escape literal filename
 
 As always, verify with `checkver.ps1`.
 
-For manifests intentionally pinned to a particular version, omit both `checkver` and `autoupdate`. Add concise `notes` explaining a non-obvious pin.
+For manifests intentionally pinned to a particular version, omit both `checkver` and `autoupdate`. Add concise `notes` explaining a non-obvious pin. Sometimes this is because the upstream release is old and we no longer expect it to be updated; sometimes it is because we intentionally want to avoid newer releases. In this latter case, include the version number in the manifest name following the Scoop Versions bucket convention: `<manifest-name><major>` with no separator, e.g. `appname2` for a manifest pinned to version 2.x.
 
 ## Autoupdate hashes
 
