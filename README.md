@@ -53,6 +53,7 @@ scoop install wilt00/<app_name>
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
+|[septabee](https://septabee.nekoweb.org/)|B_T4|High-performance, experimental, fruit-oriented DAW
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[taskwarrior](https://taskwarrior.org)|3.5.0.4|Command-line task list management utility; Windows fork, nightly build
 |[tic-80-nightly](https://tic80.com)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
