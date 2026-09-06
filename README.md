@@ -22,7 +22,7 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[cadoodle](https://cadoodlecad.com)|0.47.026|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-05|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-06|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -35,7 +35,7 @@ scoop install wilt00/<app_name>
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.
-|[fnox](https://fnox.jdx.dev)|1.35.0|Encrypted/remote secret manager.
+|[fnox](https://fnox.jdx.dev)|1.35.1|Encrypted/remote secret manager.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
@@ -75,7 +75,7 @@ scoop install wilt00/<app_name>
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.0.37|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
-|[maki](https://maki.sh)|0.5.0|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[maki](https://maki.sh)|0.5.2|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[siril](https://siril.org)|1.4.4-ucrt64|DEPRECATED: use extras/siril instead. Astronomical image processing software.
 |[tuxedo](https://github.com/webstonehq/tuxedo)|2026.8.1|DEPRECATED: use main/tuxedo instead. A fast, keyboard-driven terminal UI for todo.txt.
 
