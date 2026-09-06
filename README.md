@@ -13,8 +13,8 @@ scoop install wilt00/<app_name>
 
 ## Apps
 
-| Name | Description | Version |
-|------|-------------|---------|
+| Name | Version | Description |
+|------|---------|-------------|
 |[arkscript](https://arkscript-lang.dev)|4.7.2|A small, fast, functional and scripting language for C++ projects.
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network.
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
@@ -26,7 +26,7 @@ scoop install wilt00/<app_name>
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
-|[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker.
+|[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker.<br />Includes Peview, which triggers some antivirus software. Install dependencies-no-peview to avoid this.
 |[dependency-walker](http://www.dependencywalker.com)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules.
 |[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.5|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
@@ -34,8 +34,9 @@ scoop install wilt00/<app_name>
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|33535402580|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
-|[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.
+|[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
 |[fnox](https://fnox.jdx.dev)|1.35.1|Encrypted/remote secret manager.
+|[freepiano](https://freepiano.tiwb.com/en/)|1.8|Virtual MIDI keyboard and VST host.<br />This manifest is pinned to version 1.8, the final release with published source code.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
@@ -45,6 +46,7 @@ scoop install wilt00/<app_name>
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
 |[ntag](https://github.com/nrittsti/ntag)|1.2.17|Audio file tag editor.
 |[numi](https://numi.app)|0.3.0|A beautiful calculator app for macOS and Windows.
+|[openpiano](https://www.justagwas.com/projects/openpiano)|1.3.0|Desktop piano playable with a keyboard, mouse, or MIDI device.
 |[ovrley](https://www.ovrley.cc)|2.40.2|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
 |[podsync-nightly](https://github.com/mxpv/podsync)|2026-09-03|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
@@ -59,18 +61,18 @@ scoop install wilt00/<app_name>
 |[tic-80-nightly](https://tic80.com)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
-|[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.5|Single-file speech-to-text tool supporting modern GGUF speech models.
+|[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.5|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets.
 |[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support.
-|[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.
+|[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.<br />Whisper model weights need to be downloaded separately.<br />Choose one of the following models:<br />Tiny: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin<br />Medium: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin<br />Large: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features.
 |[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
 |[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.205|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
 
 ### Deprecated
 
-| Name | Description | Version |
-|------|-------------|---------|
+| Name | Version | Description |
+|------|---------|-------------|
 |[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.236|Anthropic's agentic coding tool that lives in your terminal.
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
