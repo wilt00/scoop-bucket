@@ -14,20 +14,21 @@ scoop install wilt00/<app_name>
 
 ## Apps
 
-| Name | Description | Version |
-|------|-------------|---------|
+| Name | Version | Description |
+|------|---------|-------------|
 "@ | Out-File -FilePath .\README.md
 
 $manifests = Get-ChildItem .\bucket\*.json | ForEach-Object {
     $manifest = Get-Content $_ -Raw | ConvertFrom-Json -AsHashtable
     $manifest.name = $_.BaseName
     $notesText = if ($manifest.notes -is [array]) { $manifest.notes -join "`n" } else { [string]$manifest.notes }
+    $manifest.notesText = $notesText
     $manifest.isDeprecated = $notesText.TrimStart().StartsWith('DEPRECATED')
     $manifest
 }
 
 $manifests | Where-Object { -not $_.isDeprecated } | ForEach-Object {
-    '|[{0}]({1})|{2}|{3}' -f $_.name, $_.homepage, $_.version, $_.description
+    '|[{0}]({1})|{2}|{3}' -f $_.name, $_.homepage, $_.version, $(if ($_.notesText) { $_.description + "<br />" + $_.notesText.replace("`n", "<br />") } else { $_.description })
 } | Out-File -FilePath .\README.md -Append
 
 $deprecated = $manifests | Where-Object { $_.isDeprecated }
@@ -36,8 +37,8 @@ if ($deprecated) {
 
 ### Deprecated
 
-| Name | Description | Version |
-|------|-------------|---------|
+| Name | Version | Description |
+|------|---------|-------------|
 '@ | Out-File -FilePath .\README.md -Append
 
     $deprecated | ForEach-Object {
