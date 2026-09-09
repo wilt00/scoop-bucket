@@ -22,7 +22,7 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[cadoodle](https://cadoodlecad.com)|0.47.033|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-08|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-09|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -31,7 +31,7 @@ scoop install wilt00/<app_name>
 |[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.5|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
 |[dusklight](https://twilitrealm.dev)|1.4.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|34245157430|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|34372417993|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.75.3|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
