@@ -22,13 +22,13 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[cadoodle](https://cadoodlecad.com)|0.46.102|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-14|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-15|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
 |[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker.<br />Includes Peview, which triggers some antivirus software. Install dependencies-no-peview to avoid this.
 |[dependency-walker](http://www.dependencywalker.com)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules.
-|[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.5|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
+|[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.6|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
 |[dusklight](https://twilitrealm.dev)|1.4.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
 |[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|34615049147|
@@ -40,7 +40,7 @@ scoop install wilt00/<app_name>
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
 |[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
-|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.5|Distribute and run LLMs with a single file.
+|[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.6|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.1|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts.
 |[netradiant-custom](https://github.com/Garux/netradiant-custom)|20260114|The open-source, cross-platform level editor for id Tech based games.
@@ -53,20 +53,20 @@ scoop install wilt00/<app_name>
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[reblue-nightly](https://github.com/zolaware/reblue)|1.1.0.70|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
+|[reblue-nightly](https://github.com/zolaware/reblue)|1.1.0.73|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
 |[reblue](https://github.com/zolaware/reblue)|1.1.0|re:Blue rebuilds Blue Dragon (2007) as a native application.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[septabee](https://septabee.nekoweb.org/)|B_T4|High-performance, experimental, fruit-oriented DAW
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[taskwarrior](https://taskwarrior.org)|3.5.0.6|Command-line task list management utility; Windows fork, nightly build
-|[tic-80-nightly](https://tic80.com)|28815070912|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
+|[tic-80-nightly](https://tic80.com)|34993101550|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
-|[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.5|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
+|[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.6|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets.
 |[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support.
-|[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.5|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.<br />Whisper model weights need to be downloaded separately.<br />Choose one of the following models:<br />Tiny: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin<br />Medium: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin<br />Large: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin
+|[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.6|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.<br />Whisper model weights need to be downloaded separately.<br />Choose one of the following models:<br />Tiny: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin<br />Medium: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin<br />Large: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features.
 |[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
 |[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.205|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
