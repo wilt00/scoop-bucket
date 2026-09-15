@@ -1,10 +1,10 @@
 {
     "description": "Distribute and run LLMs with a single file.",
     "license": "Apache-2.0",
-    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.10.5/llamafile-0.10.5.zip",
-    "hash": "54f4d4ae96d8def8564ad78d09596e24d8a4657f4aa6f904d0a46b385d589648",
-    "extract_dir": "home\\mala\\releases\\0.10.5\\llamafile-0.10.5",
-    "version": "0.10.5",
+    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.10.6/llamafile-0.10.6.zip",
+    "hash": "1d0aacce58bb2254adb8b80abf69e4dfbd7dfa530defc0fcca37ce239217e5dc",
+    "extract_dir": "home\\mala\\releases\\0.10.6\\llamafile-0.10.6",
+    "version": "0.10.6",
     "homepage": "https://github.com/Mozilla-Ocho/llamafile",
     "bin": [
         "bin\\diffusionfile.exe",
