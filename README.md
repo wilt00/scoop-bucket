@@ -22,7 +22,7 @@ scoop install wilt00/<app_name>
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[cadoodle](https://cadoodlecad.com)|0.46.102|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-17|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-18|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -53,14 +53,14 @@ scoop install wilt00/<app_name>
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[reblue-nightly](https://github.com/zolaware/reblue)|1.1.0.74|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
+|[reblue-nightly](https://github.com/zolaware/reblue)|1.2.0.77|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
 |[reblue](https://github.com/zolaware/reblue)|1.1.0|re:Blue rebuilds Blue Dragon (2007) as a native application.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[septabee](https://septabee.nekoweb.org/)|B_T4|High-performance, experimental, fruit-oriented DAW
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[taskwarrior](https://taskwarrior.org)|3.5.0.6|Command-line task list management utility; Windows fork, nightly build
-|[tic-80-nightly](https://tic80.com)|35224532485|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
+|[tic-80-nightly](https://tic80.com)|35367020409|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
 |[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.6|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
