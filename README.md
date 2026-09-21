@@ -20,9 +20,9 @@ scoop install wilt00/<app_name>
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
 |[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
-|[cadoodle](https://cadoodlecad.com)|0.47.042|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com)|0.48.002|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-20|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-09-21|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -31,11 +31,11 @@ scoop install wilt00/<app_name>
 |[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.6|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
 |[dusklight](https://twilitrealm.dev)|2.0.1|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|34615049147|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|30135664368|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.76.2|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
-|[fnox](https://fnox.jdx.dev)|1.35.2|Encrypted/remote secret manager.
+|[fnox](https://fnox.jdx.dev)|1.35.3|Encrypted/remote secret manager.
 |[freepiano1](https://freepiano.tiwb.com/en/)|1.8|Virtual MIDI keyboard and VST host.<br />This manifest is pinned to version 1.8, the final release with published source code.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
@@ -53,14 +53,14 @@ scoop install wilt00/<app_name>
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[reblue-nightly](https://github.com/zolaware/reblue)|1.2.1.80|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
+|[reblue-nightly](https://github.com/zolaware/reblue)|1.2.1.81|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
 |[reblue](https://github.com/zolaware/reblue)|1.2.1|re:Blue rebuilds Blue Dragon (2007) as a native application.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[septabee](https://septabee.nekoweb.org/)|B_T4|High-performance, experimental, fruit-oriented DAW
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
-|[taskwarrior](https://taskwarrior.org)|3.5.0.6|Command-line task list management utility; Windows fork, nightly build
-|[tic-80-nightly](https://tic80.com)|35457335856|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
+|[taskwarrior](https://taskwarrior.org)|3.5.0.7|Command-line task list management utility; Windows fork, nightly build
+|[tic-80-nightly](https://tic80.com)|35628937046|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
 |[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.6|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
