@@ -18,6 +18,7 @@ scoop install wilt00/<app_name>
 |[arkscript](https://arkscript-lang.dev)|4.7.2|A small, fast, functional and scripting language for C++ projects.
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network.
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
+|[avvie](https://github.com/Taiko2k/Avvie)|2.4.6.1|Utility for quickly cropping images. (Unofficial Windows port)
 |[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[cadoodle](https://cadoodlecad.com)|0.48.002|A drag-and-drop CAD package for beginners.
