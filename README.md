@@ -21,6 +21,7 @@ scoop install wilt00/<app_name>
 |[avvie](https://github.com/Taiko2k/Avvie)|2.4.8.1|Utility for quickly cropping images. (Unofficial Windows port)
 |[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
+|[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
 |[cadoodle](https://cadoodlecad.com)|0.48.015|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 |[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-03|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
