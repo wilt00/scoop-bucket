@@ -22,8 +22,8 @@ Prefer this repository-local documentation over assumptions about Scoop behavior
 ## Property placement and architecture
 
 - Scoop's `architecture` blocks select instructions according to the host architecture; they do not merely document a binary's PE machine type.
-- Put properties at the highest shared level that is valid. Keep a URL and hash at the top level when the same asset works on every supported host architecture.
-- In particular, do not put an x86 application under only `architecture.32bit` merely because its PE machine type is x86 when it also runs on 64-bit Windows through WOW64. Doing so makes a normal 64-bit Scoop installation reject the manifest as unsupported. Use architecture blocks to restrict an app only when it genuinely cannot run on the other host architectures.
+- **Check host-architecture selection for every manifest, even when there is only one asset.** A top-level `url`/`hash` is not an x64 declaration: Scoop may select it on 32-bit and ARM64 hosts too. Put a Windows x64-only asset under `architecture.64bit` (`url` and `hash`), and put its update URL under `autoupdate.architecture.64bit`. Do this even if the manifest has no other architecture blocks. An x64 filename or PE machine type is a reason to investigate compatibility, not proof that Scoop will reject unsupported hosts automatically.
+- Put properties at the highest shared level that is valid. Keep a URL and hash at the top level **only when that same asset actually works on every host architecture Scoop would select it for**. For example, an x86 application that runs on both 32-bit and 64-bit Windows through WOW64 can use a top-level URL; do not restrict it to `architecture.32bit` based on PE type alone. Use architecture blocks to prevent unsupported hosts from receiving an asset.
 - Keep `architecture` entries limited to values that genuinely differ by architecture, typically `url` and `hash`.
 - Keep `extract_dir`, `extract_to`, `bin`, `shortcuts`, and similar properties at the top level when their values are identical for every architecture; move them into architecture only when paths or layouts differ.
 - Support every Windows architecture for which upstream publishes or explicitly supports a working asset, including ARM64 and 32-bit.
@@ -54,7 +54,7 @@ When release order is not reliable or version selection requires semantic compar
 
 Keep regexes constrained to the intended tags or assets, escape literal filename dots such as `\.zip`, and use named captures when an asset variant must be carried into autoupdate as `$matchName`.
 
-As always, verify with `checkver.ps1`.
+When creating a manifest with `checkver` and `autoupdate`, or changing its `version`, `url`, `hash`, `checkver`, `autoupdate`, or URL/hash architecture mapping, **always run `checkver.ps1 -Update -Force`**; a version-only check or schema validation is not a substitute. Do not rerun checkver for changes limited to unrelated fields such as `persist`, `notes`, `bin`, or `description`; test those changes directly instead. Before a required checkver run, ensure each URL has a corresponding nonempty `hash` entry. If the hash is not yet known, use a temporary 64-character zero placeholder (`"hash": "0000000000000000000000000000000000000000000000000000000000000000"`), one per URL for URL arrays or one in each architecture block with a URL. An empty string (`"hash": ""`) does not work: Scoop treats it as missing and may try to update a nonexistent `architecture` block. Confirm that checkver replaces every placeholder; review the resulting version, URL, hash, and diff. Never leave placeholder hashes in a finished manifest.
 
 For manifests intentionally pinned to a particular version, omit both `checkver` and `autoupdate`. Add concise `notes` explaining a non-obvious pin. Sometimes this is because the upstream release is old and we no longer expect it to be updated; sometimes it is because we intentionally want to avoid newer releases. In this latter case, include the version number in the manifest name following the Scoop Versions bucket convention: `<manifest-name><major>` with no separator, e.g. `appname2` for a manifest pinned to version 2.x.
 
@@ -113,6 +113,7 @@ Do not add the suggestion when the package ships and resolves its own runtime DL
 - Always prefer an upstream standalone binary or portable archive over an installer. If a new package is available only through executable installers, stop and ask the user for confirmation before continuing to create the manifest.
 - Prefer Scoop's native `extract_dir`, `extract_to`, and MSI extraction behavior over custom extraction scripts.
 - Use `extract_to` when an archive contains files such as `manifest.json` that would collide with Scoop's own metadata.
+- For archives served through a query-string URL such as `https://example.org/download/?f=app-1.0.zip`, Scoop derives the local filename from the URL path (`download`), not the `f` parameter. Without a `.zip` filename, it may download and verify the archive but skip extraction, leaving the installation incomplete. Append a filename fragment (`#/app-1.0.zip`) to both the manifest URL and its autoupdate URL template; verify with a real install, not just a successful hash check or `checkver` run.
 - Rename a downloaded executable with a URL fragment such as `#/program.exe` instead of adding a rename script or an unnecessarily complex aliased `bin` entry. Do not add a URL fragment when the upstream URL already downloads the file under the desired name.
 - Put an architecture-dependent `extract_dir` in each architecture entry, but do not duplicate an invariant `extract_dir` in `autoupdate`.
 
@@ -147,15 +148,15 @@ $app = "manifest-name"
 & "$env:USERPROFILE\scoop\apps\scoop\current\bin\checkver.ps1" -App $app -Dir .\bucket\ -Update -Force
 ```
 
-Set `$app` to the manifest name without the `.json` extension. `-Update` rewrites the manifest with the detected version, URL, and hash; review the resulting diff. Omit `-Update` when only testing version detection. Use `-Force` to check even when the current version appears up to date.
+Set `$app` to the manifest name without the `.json` extension. Run this command for new manifests and release/update-field changes listed above, even when the recorded version is current; skip it for unrelated changes such as persistence alone. Before running, make sure each URL has a corresponding nonempty `hash` entry (use the temporary zero placeholder above if necessary). Confirm that every placeholder was replaced, review the resulting diff, and verify each hash is for the exact release asset. A separate version-only check may supplement, but never replace, a required update run.
 
 ## Workflow
 
 1. Inspect `app-name.template.json` and a few comparable manifests.
 2. Inspect the latest upstream release, all asset names (including checksum/signature files), archive layout, and license.
 3. Use the standard GitHub checkver unless upstream naming makes it unsuitable.
-4. Minimize architecture-specific properties.
-5. Validate JSON, the downloaded asset hash, archive paths, and checkver extraction.
+4. Determine which Windows host architectures can run each asset, then verify that Scoop's top-level versus `architecture` URL selection matches that support. For x64-only assets, require `architecture.64bit` and matching `autoupdate.architecture.64bit`, even in single-architecture manifests; keep invariant properties at the top level.
+5. Validate JSON, the downloaded asset hash, archive paths, and checkver extraction. Schema validation alone does not detect an x64-only URL accidentally exposed at the top level.
 6. Preserve repository-required file formatting, including CRLF line endings in this repository.
 7. Run the repository test suite from the repository root after making changes:
 
