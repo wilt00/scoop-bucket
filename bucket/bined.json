@@ -5,11 +5,7 @@
     "homepage": "https://bined.exbin.org",
     "license": "Apache-2.0",
     "suggest": {
-        "Java (8 or later)": [
-            "java/corretto8-jre",
-            "java/liberica-lts-jre",
-            "java/openjdk"
-        ]
+        "JRE": "java/temurin8-jre"
     },
     "url": "https://bined.exbin.org/download/?f=bined-0.2.5.zip#/bined-0.2.5.zip",
     "hash": "03019240af14d62092c211a9ae45f3282a7c9b00f3613e9ca6f7160271a3669e",

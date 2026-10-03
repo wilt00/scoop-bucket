@@ -108,6 +108,16 @@ When a `VCRUNTIME` dependency resolves from Windows/System32, recommend the curr
 
 Do not add the suggestion when the package ships and resolves its own runtime DLLs. Only add suggestions for dependencies that are actually required or materially useful. Check for other material runtime requirements too, such as WebView2, Java, or an Android SDK, and use the appropriate bucket manifest.
 
+For an app that requires an external Java runtime, use one `JRE` suggestion pointing to the Temurin JRE for the documented minimum Java version, rather than listing several alternative runtimes. For a Java 8 minimum:
+
+```json
+"suggest": {
+    "JRE": "java/temurin8-jre"
+}
+```
+
+Use the corresponding versioned manifest for a higher minimum (for example, `java/temurin17-jre` for Java 17). If upstream documents a hard minimum newer than Java 8, briefly state it in `notes` (for example, `"Requires Java 17 or later."`). No version note is needed for the Java 8 baseline.
+
 ## Extraction and filenames
 
 - Always prefer an upstream standalone binary or portable archive over an installer. If a new package is available only through executable installers, stop and ask the user for confirmation before continuing to create the manifest.
