@@ -27,6 +27,7 @@ scoop install wilt00/<app_name>
 |[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-07|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
+|[ddhx](https://github.com/dd86k/ddhx)|0.13.0|Simple byte-oriented multi-platform modal TUI hex editor.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
 |[dependencies](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker.<br />Includes Peview, which triggers some antivirus software. Install dependencies-no-peview to avoid this.
 |[dependency-walker](http://www.dependencywalker.com)|2.2|Dependency Walker scans any Windows module (exe, dll, ocx, sys, etc.) and builds a diagram of all dependent modules.
