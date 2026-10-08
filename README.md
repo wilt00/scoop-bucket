@@ -52,7 +52,7 @@ scoop install wilt00/<app_name>
 |[openpiano](https://www.justagwas.com/projects/openpiano)|1.3.0|Desktop piano playable with a keyboard, mouse, or MIDI device.
 |[ovrley](https://www.ovrley.cc)|2.48.0|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
-|[pdfcraft](https://github.com/storytold/pdfcraft)|0.4.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
+|[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.4.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
 |[podsync-nightly](https://github.com/mxpv/podsync)|2026-09-03|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
