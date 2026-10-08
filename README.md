@@ -64,13 +64,13 @@ scoop install wilt00/<app_name>
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[taskwarrior](https://taskwarrior.org)|3.5.0.7|Command-line task list management utility; Windows fork, nightly build
 |[tic-80-nightly](https://tic80.com)|36604213330|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
-|[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
+|[tikz-editor](https://tikz.dev/editor)|0.6.0|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
 |[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.6|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
 |[uwidgets](https://github.com/creewick/uWidgets)|0.6.0|Standalone .NET application with a variety of customizable widgets.
 |[void-image-viewer](https://www.voidtools.com/forum/viewtopic.php?t=5623)|1.0.0.15|A lightweight image viewer with animated GIF/WEBP support.
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.6|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.<br />Whisper model weights need to be downloaded separately.<br />Choose one of the following models:<br />Tiny: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin<br />Medium: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin<br />Large: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin
-|[yumu](https://github.com/typefasterjoel/yumu)|1.0.4|Unofficial YouTube Music Desktop wrapper with some extra features.
+|[yumu](https://github.com/typefasterjoel/yumu)|1.0.5|Unofficial YouTube Music Desktop wrapper with some extra features.
 |[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
 |[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.205|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
 
