@@ -19,12 +19,12 @@ scoop install wilt00/<app_name>
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network.
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
 |[avvie](https://github.com/Taiko2k/Avvie)|2.4.8.1|Utility for quickly cropping images. (Unofficial Windows port)
-|[axelchat](https://github.com/3dproger/AxelChat)|0.48.0|Displays chats from multiple services in one window.
+|[axelchat](https://github.com/3dproger/AxelChat)|0.49.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
-|[cadoodle](https://cadoodlecad.com)|0.48.015|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com)|0.48.025|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-03|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-07|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[dependencies-no-peview](https://github.com/lucasg/Dependencies)|1.11.1|An open-source modern Dependency Walker (without Peview, which triggers some antivirus software)
@@ -37,11 +37,11 @@ scoop install wilt00/<app_name>
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.77.0|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
-|[fnox](https://fnox.jdx.dev)|1.36.0|Encrypted/remote secret manager.
+|[fnox](https://fnox.jdx.dev)|1.39.0|Encrypted/remote secret manager.
 |[freepiano1](https://freepiano.tiwb.com/en/)|1.8|Virtual MIDI keyboard and VST host.<br />This manifest is pinned to version 1.8, the final release with published source code.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
-|[kirastudio](https://kirastudio.org)|1.1.1|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
+|[kirastudio](https://kirastudio.org)|1.1.2|A lightweight, cross-platform music studio built for clarity, automation, and sound creation.
 |[llamafile](https://github.com/Mozilla-Ocho/llamafile)|0.10.6|Distribute and run LLMs with a single file.
 |[lumafly](https://themulhima.github.io/Lumafly)|3.3.0.0|A cross platform mod manager for Hollow Knight. Formerly known as Scarab+.
 |[moonflow](https://github.com/Amethyst-szs/MoonFlow)|1.4.1|Modding application for Super Mario Odyssey, specializing in text editing and event flowcharts.
@@ -55,14 +55,14 @@ scoop install wilt00/<app_name>
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[reblue-nightly](https://github.com/zolaware/reblue)|1.3.0.93|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
-|[reblue](https://github.com/zolaware/reblue)|1.2.1|re:Blue rebuilds Blue Dragon (2007) as a native application.
+|[reblue-nightly](https://github.com/zolaware/reblue)|1.3.1.97|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
+|[reblue](https://github.com/zolaware/reblue)|1.3.1|re:Blue rebuilds Blue Dragon (2007) as a native application.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[septabee](https://septabee.nekoweb.org/)|B_T4|High-performance, experimental, fruit-oriented DAW
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[taskwarrior](https://taskwarrior.org)|3.5.0.7|Command-line task list management utility; Windows fork, nightly build
-|[tic-80-nightly](https://tic80.com)|37135101291|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
+|[tic-80-nightly](https://tic80.com)|36604213330|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.5.2|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
 |[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.6|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
@@ -81,7 +81,7 @@ scoop install wilt00/<app_name>
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.26|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.0.38|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
-|[maki](https://maki.sh)|0.5.7|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[maki](https://maki.sh)|0.6.0|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[siril](https://siril.org)|1.4.4-ucrt64|DEPRECATED: use extras/siril instead. Astronomical image processing software.
 |[tuxedo](https://github.com/webstonehq/tuxedo)|2026.8.1|DEPRECATED: use main/tuxedo instead. A fast, keyboard-driven terminal UI for todo.txt.
 
