@@ -15,7 +15,7 @@ scoop install wilt00/<app_name>
 
 | Name | Version | Description |
 |------|---------|-------------|
-|[arkscript](https://arkscript-lang.dev)|4.7.2|A small, fast, functional and scripting language for C++ projects.
+|[arkscript](https://arkscript-lang.dev)|4.8.0|A small, fast, functional and scripting language for C++ projects.
 |[as-cmd](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share command line client; share Windows/Linux audio to Android phone over network.
 |[audio-share](https://github.com/mkckr0/audio-share)|0.3.4|Audio Share GUI client; share Windows/Linux audio to Android phone over network.
 |[avvie](https://github.com/Taiko2k/Avvie)|2.4.8.1|Utility for quickly cropping images. (Unofficial Windows port)
@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
 |[cadoodle](https://cadoodlecad.com)|0.46.127|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-10|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-11|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.13.0|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -52,19 +52,19 @@ scoop install wilt00/<app_name>
 |[openpiano](https://www.justagwas.com/projects/openpiano)|1.3.0|Desktop piano playable with a keyboard, mouse, or MIDI device.
 |[ovrley](https://www.ovrley.cc)|2.48.0|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
-|[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.5.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
+|[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.6.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
 |[podsync-nightly](https://github.com/mxpv/podsync)|2026-09-03|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[reblue-nightly](https://github.com/zolaware/reblue)|1.3.1.97|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
+|[reblue-nightly](https://github.com/zolaware/reblue)|1.3.1.101|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
 |[reblue](https://github.com/zolaware/reblue)|1.3.1|re:Blue rebuilds Blue Dragon (2007) as a native application.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
 |[septabee](https://septabee.nekoweb.org/)|B_T4|High-performance, experimental, fruit-oriented DAW
 |[soupault](https://soupault.net)|5.3.0|HTML manipulation tool.
 |[taskwarrior](https://taskwarrior.org)|3.5.0.7|Command-line task list management utility; Windows fork, nightly build
-|[tic-80-nightly](https://tic80.com)|37346984947|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
+|[tic-80-nightly](https://tic80.com)|38148489963|A fantasy computer for making, playing and sharing tiny games. Unstable nightly builds.
 |[tikz-editor](https://tikz.dev/editor)|0.6.0|WYSIWYG editor for TikZ diagrams in LaTeX.
 |[tilf](https://github.com/danterolle/tilf)|0.5|Tilf (Tiny Elf) is a simple yet powerful pixel art editor.
 |[transcribefile](https://github.com/mozilla-ai/llamafile/tree/main/transcribefile)|0.10.6|Single-file speech-to-text tool supporting modern GGUF speech models.<br />Speech model weights need to be downloaded separately.
@@ -80,10 +80,10 @@ scoop install wilt00/<app_name>
 | Name | Version | Description |
 |------|---------|-------------|
 |[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.287|Anthropic's agentic coding tool that lives in your terminal.
-|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.28|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
+|[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.36|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.0.38|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
-|[maki](https://maki.sh)|0.6.2|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[maki](https://maki.sh)|0.6.3|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[siril](https://siril.org)|1.4.4-ucrt64|DEPRECATED: use extras/siril instead. Astronomical image processing software.
 |[tuxedo](https://github.com/webstonehq/tuxedo)|2026.8.1|DEPRECATED: use main/tuxedo instead. A fast, keyboard-driven terminal UI for todo.txt.
 
