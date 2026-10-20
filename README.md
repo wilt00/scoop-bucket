@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
 |[cadoodle](https://cadoodlecad.com)|0.46.139|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-18|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-10-20|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.13.0|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -79,7 +79,7 @@ scoop install wilt00/<app_name>
 
 | Name | Version | Description |
 |------|---------|-------------|
-|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.292|Anthropic's agentic coding tool that lives in your terminal.
+|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.304|Anthropic's agentic coding tool that lives in your terminal.
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.36|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.1.39|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
