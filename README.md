@@ -22,9 +22,9 @@ scoop install wilt00/<app_name>
 |[axelchat](https://github.com/3dproger/AxelChat)|0.49.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
-|[cadoodle](https://cadoodlecad.com)|0.48.053|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com)|0.48.054|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-02|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-03|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.13.0|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -34,11 +34,11 @@ scoop install wilt00/<app_name>
 |[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.6|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
 |[dusklight](https://twilitrealm.dev)|2.0.3|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|35718603230|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|41585054579|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.79.0|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
-|[fnox](https://fnox.jdx.dev)|1.46.0|Encrypted/remote secret manager.
+|[fnox](https://fnox.jdx.dev)|1.47.0|Encrypted/remote secret manager.
 |[freepiano1](https://freepiano.tiwb.com/en/)|1.8|Virtual MIDI keyboard and VST host.<br />This manifest is pinned to version 1.8, the final release with published source code.
 |[gms-audiogroup-extract](https://github.com/iDestyKK/GMS_AudioGroup_Extract)|1.0.0|This will extract the file contents from GameMaker Studio files like "audiogroup1.dat".
 |[graalvm-oracle-21jdk-isolate](https://www.graalvm.org)|21.0.12|Oracle GraalVM; manifest does not modify environment variables.
@@ -52,7 +52,7 @@ scoop install wilt00/<app_name>
 |[openpiano](https://www.justagwas.com/projects/openpiano)|2.0.1|Desktop piano playable with a keyboard, mouse, or MIDI device.
 |[ovrley](https://www.ovrley.cc)|3.0.1|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
-|[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.17.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
+|[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.18.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
 |[podsync-nightly](https://github.com/mxpv/podsync)|2026-09-03|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
@@ -73,13 +73,13 @@ scoop install wilt00/<app_name>
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.6|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.<br />Whisper model weights need to be downloaded separately.<br />Choose one of the following models:<br />Tiny: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin<br />Medium: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin<br />Large: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.5|Unofficial YouTube Music Desktop wrapper with some extra features.
 |[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
-|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.36.205|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
+|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.38.109|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
 
 ### Deprecated
 
 | Name | Version | Description |
 |------|---------|-------------|
-|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.309|Anthropic's agentic coding tool that lives in your terminal.
+|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.311|Anthropic's agentic coding tool that lives in your terminal.
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.36|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.1.39|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
