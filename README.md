@@ -53,7 +53,7 @@ scoop install wilt00/<app_name>
 |[ovrley](https://www.ovrley.cc)|3.1.5|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
 |[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.19.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
-|[podsync-nightly](https://github.com/mxpv/podsync)|2026-09-03|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
+|[podsync-nightly](https://github.com/mxpv/podsync)|2026-11-14|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
