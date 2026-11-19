@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
 |[cadoodle](https://cadoodlecad.com)|0.49.008|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-18|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-19|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.14.1|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -34,7 +34,7 @@ scoop install wilt00/<app_name>
 |[diffusionfile](https://github.com/mozilla-ai/llamafile/tree/main/diffusionfile)|0.10.6|Single-file image generation tool built on stable-diffusion.cpp and Cosmopolitan Libc.
 |[dots](https://h3y.studio/dots)|3.0.2|The friendly .NET SDK manager.
 |[dusklight](https://twilitrealm.dev)|2.0.3|Dusklight is a reverse-engineered reimplementation of Twilight Princess.
-|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|42521378794|
+|[espeak-ng-nightly](https://github.com/espeak-ng/espeak-ng)|44537706355|
 |[fbx2gltf](https://github.com/godotengine/FBX2glTF)|0.13.1|A command-line tool for the conversion of 3D model assets on the FBX file format to the glTF file format.
 |[fire-toolbox](https://xdaforums.com/t/3889604)|45.0|A collection of useful Android Debug Bridge tweaks that can be applied to Amazon's Fire Tablets.
 |[flix-lang](https://flix.dev)|0.80.0|Flix is a statically typed functional, imperative, and logic programming language.<br />Flix requires Java 21 or later
