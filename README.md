@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
 |[cadoodle](https://cadoodlecad.com)|0.50.002|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-24|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-25|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.14.1|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -73,13 +73,13 @@ scoop install wilt00/<app_name>
 |[whisperfile](https://docs.mozilla.ai/llamafile/whisperfile/index)|0.10.6|Single-file speech-to-text tool built on whisper.cpp and Cosmopolitan Libc.<br />Whisper model weights need to be downloaded separately.<br />Choose one of the following models:<br />Tiny: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin<br />Medium: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin<br />Large: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin
 |[yumu](https://github.com/typefasterjoel/yumu)|1.0.5|Unofficial YouTube Music Desktop wrapper with some extra features.
 |[zenbreak](https://zenbreak.app)|1.0.3|ZenBreak gently reminds you to take meaningful breaks from your devices.
-|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.38.109|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
+|[zulufx25-jre-isolate](https://www.azul.com/products/zulu-community/zulufx)|25.38.201|Open Source Builds of Zulu With OpenJFX; manifest does not modify environment variables.
 
 ### Deprecated
 
 | Name | Version | Description |
 |------|---------|-------------|
-|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.325|Anthropic's agentic coding tool that lives in your terminal.
+|[claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)|2.1.326|Anthropic's agentic coding tool that lives in your terminal.
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.75|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.1.40|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
