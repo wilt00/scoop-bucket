@@ -24,7 +24,7 @@ scoop install wilt00/<app_name>
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
 |[cadoodle](https://cadoodlecad.com)|0.50.002|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-25|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-26|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.14.1|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -50,10 +50,10 @@ scoop install wilt00/<app_name>
 |[ntag](https://github.com/nrittsti/ntag)|1.2.17|Audio file tag editor.
 |[numi](https://numi.app)|0.3.0|A beautiful calculator app for macOS and Windows.
 |[openpiano](https://www.justagwas.com/projects/openpiano)|2.0.2|Desktop piano playable with a keyboard, mouse, or MIDI device.
-|[ovrley](https://www.ovrley.cc)|3.1.5|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
+|[ovrley](https://www.ovrley.cc)|3.6.6|Build telemetry overlay for videos from GPX, FIT and SRT activity data.
 |[paulstretch](https://hypermammut.sourceforge.net/paulstretch)|2.2.2|Paul's Extreme Sound Stretch.
 |[pdfcraft](https://getartcraft.com/apps/pdfcraft)|0.19.0|An open-source reimplementation of Adobe Acrobat built in pure Rust
-|[podsync-nightly](https://github.com/mxpv/podsync)|2026-11-17|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
+|[podsync-nightly](https://github.com/mxpv/podsync)|2026-11-26|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds - nightly build.
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
