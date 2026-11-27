@@ -22,9 +22,9 @@ scoop install wilt00/<app_name>
 |[axelchat](https://github.com/3dproger/AxelChat)|0.49.0|Displays chats from multiple services in one window.
 |[better-cleartype-tuner](https://github.com/bp2008/BetterClearTypeTuner)|1.7|A better way to configure ClearType font smoothing on Windows 10.
 |[bined](https://bined.exbin.org)|0.2.5|Free and open source binary/hex viewer/editor and component written in Java.
-|[cadoodle](https://cadoodlecad.com)|0.50.002|A drag-and-drop CAD package for beginners.
+|[cadoodle](https://cadoodlecad.com)|0.46.175|A drag-and-drop CAD package for beginners.
 |[carp](https://github.com/carp-lang/Carp)|0.5.5|Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-26|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
+|[cataclysm-bn-nightly](https://docs.cataclysmbn.org/en)|2026-11-27|Cataclysm: Bright Nights is a roguelike with sci-fi elements set in a post-apocalyptic world. Fork of Cataclysm: Dark Days Ahead.
 |[cheese-paper](https://brie.gay/cheese-paper)|1.0.0|A text editor specifically designed for writing, particularly fiction.
 |[comictagger](https://github.com/comictagger/comictagger)|1.6.0b10|ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
 |[ddhx](https://github.com/dd86k/ddhx)|0.14.1|Simple byte-oriented multi-platform modal TUI hex editor.
@@ -57,7 +57,7 @@ scoop install wilt00/<app_name>
 |[podsync](https://github.com/mxpv/podsync)|2.8.0|Turn YouTube or Vimeo channels, users, or playlists into podcast feeds.
 |[printrun](https://github.com/kliment/Printrun)|2.2.0|Pure Python 3d printing host software. Pronterface: GUI; Pronsole: CLI.
 |[pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio)|1.1|PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for your sound applications.
-|[reblue-nightly](https://github.com/zolaware/reblue)|1.4.0.153|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
+|[reblue-nightly](https://github.com/zolaware/reblue)|1.4.0.160|re:Blue rebuilds Blue Dragon (2007) as a native application. Nightly build.
 |[reblue](https://github.com/zolaware/reblue)|1.3.1|re:Blue rebuilds Blue Dragon (2007) as a native application.
 |[riffext](https://github.com/PKBeam/RiffExt)|2.0|Extract RIFF data from arbitrary files.
 |[riven-image-viewer](https://www.mystellany.com/riven/imageviewer)|1.0.0|View and extract every picture from Riven's "Mohawk" (MHK) data files.
@@ -83,7 +83,7 @@ scoop install wilt00/<app_name>
 |[driver-store-explorer](https://github.com/lostindark/DriverStoreExplorer)|1.0.75|DEPRECATED: use extras/driverstoreexplorer instead. Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include list/add/install/delete third-party driver packages.
 |[dusk](https://github.com/TwilitRealm/dusk)|1.0.1|DEPRECATED: project renamed to Dusklight. Dusk is a reverse-engineered reimplementation of Twilight Princess.
 |[es](https://www.voidtools.com)|1.1.1.40|DEPRECATED: use main/everything-cli instead. Command-line interface for the Everything search tool.
-|[maki](https://maki.sh)|0.7.3|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
+|[maki](https://maki.sh)|0.7.4|DEPRECATED: use main/maki. An AI coding agent optimized for minimal use of context tokens, while providing a great user experience.
 |[siril](https://siril.org)|1.4.5-ucrt64|DEPRECATED: use extras/siril instead. Astronomical image processing software.
 |[tuxedo](https://github.com/webstonehq/tuxedo)|2026.8.1|DEPRECATED: use main/tuxedo instead. A fast, keyboard-driven terminal UI for todo.txt.
 
